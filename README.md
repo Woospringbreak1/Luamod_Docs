@@ -4,8 +4,8 @@ Please refer to the documentation wiki and Lua API linked below
 
 ## 📚 Documentation
 
-- 🧠 [LuaMod Wiki](https://github.com/your-username/your-repo/wiki)
-- 🌐 [API Reference (GitHub Pages)](https://your-username.github.io/your-repo/)
+- 🧠 [BONELAB Lua Modding Framework Wiki](https://github.com/Woospringbreak1/Luamod_Docs/wiki)
+- 🌐 [Lua API Reference ](https://woospringbreak1.github.io/Luamod_Docs/api/LuaMod.html)
 
 
 And remember, Everything's possible with Lava Gang
