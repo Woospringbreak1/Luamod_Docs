@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class API_FileAccess | Lua Modding Framework ">
       
-      
+      <meta name="description" content="Provides Lua-accessible file operations such as opening and checking for file existence.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="LuaMod_LuaAPI_API_FileAccess" data-uid="LuaMod.LuaAPI.API_FileAccess" class="text-break">
-Class API_FileAccess  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class API_FileAccess  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>LuaMod.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Provides Lua-accessible file operations such as opening and checking for file existence.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -121,6 +122,10 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 id="LuaMod_LuaAPI_API_FileAccess_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Use this API to safely interact with the file system from Lua scripts. File paths are validated to prevent unauthorized access outside the mod sandbox.</p>
+<p>Files opened with <a class="xref" href="LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_BL_OpenFile_System_String_">BL_OpenFile(string)</a> return a <a class="xref" href="LuaMod.LuaAPI.BLFileAccess.html">BLFileAccess</a> object for reading or writing contents.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -130,7 +135,7 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
 
   <h3 id="LuaMod_LuaAPI_API_FileAccess_Instance" data-uid="LuaMod.LuaAPI.API_FileAccess.Instance">
   Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -165,10 +170,11 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
 
   <h3 id="LuaMod_LuaAPI_API_FileAccess_BL_FileExists_System_String_" data-uid="LuaMod.LuaAPI.API_FileAccess.BL_FileExists(System.String)">
   BL_FileExists(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether a file exists at the specified relative path within the mod's sandbox.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -178,13 +184,15 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <span class="xref">string</span></dt>
-    <dd></dd>
+    <dd><p>The relative file path to check.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">bool</span></dt>
-    <dd></dd>
+    <dd><p>Returns <code>true</code> if the file exists and the path is safe; otherwise, <code>false</code>. Throws an exception if the path is unsafe.</p>
+</dd>
   </dl>
 
 
@@ -201,10 +209,12 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
 
   <h3 id="LuaMod_LuaAPI_API_FileAccess_BL_OpenFile_System_String_" data-uid="LuaMod.LuaAPI.API_FileAccess.BL_OpenFile(System.String)">
   BL_OpenFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Opens a file at the specified path and returns a <a class="xref" href="LuaMod.LuaAPI.BLFileAccess.html">BLFileAccess</a> object
+for interacting with it.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -214,13 +224,15 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <span class="xref">string</span></dt>
-    <dd></dd>
+    <dd><p>The relative path to the file.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="LuaMod.LuaAPI.BLFileAccess.html">BLFileAccess</a></dt>
-    <dd></dd>
+    <dd><p>A BLFileAccess object if the path is safe; throws an exception otherwise.</p>
+</dd>
   </dl>
 
 
@@ -237,7 +249,7 @@ Class API_FileAccess  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_FileAccess.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -125,7 +125,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "LuaMod.LuaAPI.API_FileAccess",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/LuaMod.LuaAPI.API_FileAccess.yml\" sourcestartlinenumber=\"1\">Provides Lua-accessible file operations such as opening and checking for file existence.</p>\n"
     },
     {
       "type": "ManagedReference",

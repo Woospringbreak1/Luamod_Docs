@@ -37,7 +37,7 @@
   "api/LuaMod.LuaAPI.API_FileAccess.html": {
     "href": "api/LuaMod.LuaAPI.API_FileAccess.html",
     "title": "Class API_FileAccess | Lua Modding Framework",
-    "summary": "Class API_FileAccess Namespace LuaMod.LuaAPI Assembly LuaMod.dll public class API_FileAccess Inheritance object API_FileAccess Fields Instance public static readonly API_FileAccess Instance Field Value API_FileAccess Methods BL_FileExists(string) public static bool BL_FileExists(string name) Parameters name string Returns bool BL_OpenFile(string) public static BLFileAccess BL_OpenFile(string name) Parameters name string Returns BLFileAccess"
+    "summary": "Class API_FileAccess Namespace LuaMod.LuaAPI Assembly LuaMod.dll Provides Lua-accessible file operations such as opening and checking for file existence. public class API_FileAccess Inheritance object API_FileAccess Remarks Use this API to safely interact with the file system from Lua scripts. File paths are validated to prevent unauthorized access outside the mod sandbox. Files opened with BL_OpenFile(string) return a BLFileAccess object for reading or writing contents. Fields Instance public static readonly API_FileAccess Instance Field Value API_FileAccess Methods BL_FileExists(string) Determines whether a file exists at the specified relative path within the mod's sandbox. public static bool BL_FileExists(string name) Parameters name string The relative file path to check. Returns bool Returns true if the file exists and the path is safe; otherwise, false. Throws an exception if the path is unsafe. BL_OpenFile(string) Opens a file at the specified path and returns a BLFileAccess object for interacting with it. public static BLFileAccess BL_OpenFile(string name) Parameters name string The relative path to the file. Returns BLFileAccess A BLFileAccess object if the path is safe; throws an exception otherwise."
   },
   "api/LuaMod.LuaAPI.API_GameObject.html": {
     "href": "api/LuaMod.LuaAPI.API_GameObject.html",
@@ -107,7 +107,7 @@
   "api/LuaMod.LuaAPI.html": {
     "href": "api/LuaMod.LuaAPI.html",
     "title": "Namespace LuaMod.LuaAPI | Lua Modding Framework",
-    "summary": "Namespace LuaMod.LuaAPI Classes API_Audio API_BoneMenu API_Events NOTE: THIS CLASS PROBABLY A MEMORY LEAK - NEED TO DESTROY SCRIPT REFERENCES WHEN DESTROYED API_FileAccess API_GameObject Lua-exposed API for GameObject manipulation in Bonelab. Provides methods for spawning, destroying, and modifying Unity GameObjects from Lua scripts. API_Input API_Particles API_Physics API_Player API_Random API_SLZ_Combat API_SLZ_NPC API_SLZ_VoidLogic API_Utils API_Vector BLFileAccess Structs EventListner"
+    "summary": "Namespace LuaMod.LuaAPI Classes API_Audio API_BoneMenu API_Events NOTE: THIS CLASS PROBABLY A MEMORY LEAK - NEED TO DESTROY SCRIPT REFERENCES WHEN DESTROYED API_FileAccess Provides Lua-accessible file operations such as opening and checking for file existence. API_GameObject Lua-exposed API for GameObject manipulation in Bonelab. Provides methods for spawning, destroying, and modifying Unity GameObjects from Lua scripts. API_Input API_Particles API_Physics API_Player API_Random API_SLZ_Combat API_SLZ_NPC API_SLZ_VoidLogic API_Utils API_Vector BLFileAccess Structs EventListner"
   },
   "api/LuaMod.LuaBehaviour.html": {
     "href": "api/LuaMod.LuaBehaviour.html",
