@@ -167,7 +167,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "LuaMod.LuaAPI.API_Particles",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/LuaMod.LuaAPI.API_Particles.yml\" sourcestartlinenumber=\"1\">Lua-exposed API for working with Unity particle systems and trail segments.</p>\n"
     },
     {
       "type": "ManagedReference",

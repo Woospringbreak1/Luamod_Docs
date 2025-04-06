@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class API_Particles | Lua Modding Framework ">
       
-      
+      <meta name="description" content="Lua-exposed API for working with Unity particle systems and trail segments.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="LuaMod_LuaAPI_API_Particles" data-uid="LuaMod.LuaAPI.API_Particles" class="text-break">
-Class API_Particles  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L17"><i class="bi bi-code-slash"></i></a>
+Class API_Particles  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>LuaMod.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Lua-exposed API for working with Unity particle systems and trail segments.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -121,6 +122,9 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h2 id="LuaMod_LuaAPI_API_Particles_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This API is experimental. Some functions may be unstable and cause crashes due to issues in the underlying engine or bindings.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -130,7 +134,7 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
   <h3 id="LuaMod_LuaAPI_API_Particles_Instance" data-uid="LuaMod.LuaAPI.API_Particles.Instance">
   Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -165,10 +169,11 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
   <h3 id="LuaMod_LuaAPI_API_Particles_BL_GetParticles_UnityEngine_ParticleSystem_System_Int32_System_Int32_" data-uid="LuaMod.LuaAPI.API_Particles.BL_GetParticles(UnityEngine.ParticleSystem,System.Int32,System.Int32)">
   BL_GetParticles(ParticleSystem, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Attempts to retrieve particle data from a Unity ParticleSystem.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -178,17 +183,21 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>system</code> <span class="xref">ParticleSystem</span></dt>
-    <dd></dd>
+    <dd><p>The ParticleSystem to extract particles from.</p>
+</dd>
     <dt><code>size</code> <span class="xref">int</span></dt>
-    <dd></dd>
+    <dd><p>The number of particles to retrieve.</p>
+</dd>
     <dt><code>offset</code> <span class="xref">int</span></dt>
-    <dd></dd>
+    <dd><p>The offset index to start reading particles.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Particle</span>[]</dt>
-    <dd></dd>
+    <dd><p>An array of Particle objects if successful; null otherwise. Currently known to cause crashes.</p>
+</dd>
   </dl>
 
 
@@ -197,6 +206,9 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="LuaMod_LuaAPI_API_Particles_BL_GetParticles_UnityEngine_ParticleSystem_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>⚠️ WARNING: Calling this method may result in a crash to desktop (CTD). A bug report is open with the MelonLoader team.</p>
+</div>
 
 
 
@@ -205,10 +217,11 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
   <h3 id="LuaMod_LuaAPI_API_Particles_BL_lineRenderer_GetPositions_UnityEngine_LineRenderer_" data-uid="LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions(UnityEngine.LineRenderer)">
   BL_lineRenderer_GetPositions(LineRenderer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Attempts to retrieve line segment positions from a Unity LineRenderer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -218,13 +231,15 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>LR</code> <span class="xref">LineRenderer</span></dt>
-    <dd></dd>
+    <dd><p>The LineRenderer component to read from.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">DynValue</span></dt>
-    <dd></dd>
+    <dd><p>DynValue containing the position data, or null if failed. Currently unstable.</p>
+</dd>
   </dl>
 
 
@@ -233,6 +248,9 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="LuaMod_LuaAPI_API_Particles_BL_lineRenderer_GetPositions_UnityEngine_LineRenderer__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>⚠️ WARNING: This method is known to crash and should be used with caution. A MelonLoader issue is under investigation.</p>
+</div>
 
 
 
@@ -241,7 +259,7 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 
   <h3 id="LuaMod_LuaAPI_API_Particles_CreateTrailSegmentArray_System_Int32_" data-uid="LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray(System.Int32)">
   CreateTrailSegmentArray(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +295,7 @@ Class API_Particles  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L17" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Particles.cs/#L22" class="edit-link">Edit this page</a>
         </div>
 
 
