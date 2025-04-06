@@ -1,0 +1,2560 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: LuaMod
+  name: LuaMod
+  href: api/LuaMod.html
+  commentId: N:LuaMod
+  fullName: LuaMod
+  nameWithType: LuaMod
+- uid: LuaMod.BoneMenu
+  name: LuaMod.BoneMenu
+  href: api/LuaMod.BoneMenu.html
+  commentId: N:LuaMod.BoneMenu
+  fullName: LuaMod.BoneMenu
+  nameWithType: LuaMod.BoneMenu
+- uid: LuaMod.BoneMenu.LuaFunctionElement
+  name: LuaFunctionElement
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html
+  commentId: T:LuaMod.BoneMenu.LuaFunctionElement
+  fullName: LuaMod.BoneMenu.LuaFunctionElement
+  nameWithType: LuaFunctionElement
+- uid: LuaMod.BoneMenu.LuaFunctionElement.#ctor(System.String,UnityEngine.Color,LuaMod.LuaBehaviour,System.String)
+  name: LuaFunctionElement(string, Color, LuaBehaviour, string)
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement__ctor_System_String_UnityEngine_Color_LuaMod_LuaBehaviour_System_String_
+  commentId: M:LuaMod.BoneMenu.LuaFunctionElement.#ctor(System.String,UnityEngine.Color,LuaMod.LuaBehaviour,System.String)
+  name.vb: New(String, Color, LuaBehaviour, String)
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.LuaFunctionElement(string, UnityEngine.Color, LuaMod.LuaBehaviour, string)
+  fullName.vb: LuaMod.BoneMenu.LuaFunctionElement.New(String, UnityEngine.Color, LuaMod.LuaBehaviour, String)
+  nameWithType: LuaFunctionElement.LuaFunctionElement(string, Color, LuaBehaviour, string)
+  nameWithType.vb: LuaFunctionElement.New(String, Color, LuaBehaviour, String)
+- uid: LuaMod.BoneMenu.LuaFunctionElement.#ctor*
+  name: LuaFunctionElement
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement__ctor_
+  commentId: Overload:LuaMod.BoneMenu.LuaFunctionElement.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.LuaFunctionElement
+  fullName.vb: LuaMod.BoneMenu.LuaFunctionElement.New
+  nameWithType: LuaFunctionElement.LuaFunctionElement
+  nameWithType.vb: LuaFunctionElement.New
+- uid: LuaMod.BoneMenu.LuaFunctionElement.Logo
+  name: Logo
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement_Logo
+  commentId: P:LuaMod.BoneMenu.LuaFunctionElement.Logo
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.Logo
+  nameWithType: LuaFunctionElement.Logo
+- uid: LuaMod.BoneMenu.LuaFunctionElement.Logo*
+  name: Logo
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement_Logo_
+  commentId: Overload:LuaMod.BoneMenu.LuaFunctionElement.Logo
+  isSpec: "True"
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.Logo
+  nameWithType: LuaFunctionElement.Logo
+- uid: LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected
+  name: OnElementSelected()
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement_OnElementSelected
+  commentId: M:LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected()
+  nameWithType: LuaFunctionElement.OnElementSelected()
+- uid: LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected*
+  name: OnElementSelected
+  href: api/LuaMod.BoneMenu.LuaFunctionElement.html#LuaMod_BoneMenu_LuaFunctionElement_OnElementSelected_
+  commentId: Overload:LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected
+  isSpec: "True"
+  fullName: LuaMod.BoneMenu.LuaFunctionElement.OnElementSelected
+  nameWithType: LuaFunctionElement.OnElementSelected
+- uid: LuaMod.LuaAPI
+  name: LuaMod.LuaAPI
+  href: api/LuaMod.LuaAPI.html
+  commentId: N:LuaMod.LuaAPI
+  fullName: LuaMod.LuaAPI
+  nameWithType: LuaMod.LuaAPI
+- uid: LuaMod.LuaAPI.API_Audio
+  name: API_Audio
+  href: api/LuaMod.LuaAPI.API_Audio.html
+  commentId: T:LuaMod.LuaAPI.API_Audio
+  fullName: LuaMod.LuaAPI.API_Audio
+  nameWithType: API_Audio
+- uid: LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot(UnityEngine.AudioClip,UnityEngine.Vector3,System.Single,System.Single,System.Single)
+  name: BL_Play3DOneShot(AudioClip, Vector3, float, float, float)
+  href: api/LuaMod.LuaAPI.API_Audio.html#LuaMod_LuaAPI_API_Audio_BL_Play3DOneShot_UnityEngine_AudioClip_UnityEngine_Vector3_System_Single_System_Single_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot(UnityEngine.AudioClip,UnityEngine.Vector3,System.Single,System.Single,System.Single)
+  name.vb: BL_Play3DOneShot(AudioClip, Vector3, Single, Single, Single)
+  fullName: LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot(UnityEngine.AudioClip, UnityEngine.Vector3, float, float, float)
+  fullName.vb: LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot(UnityEngine.AudioClip, UnityEngine.Vector3, Single, Single, Single)
+  nameWithType: API_Audio.BL_Play3DOneShot(AudioClip, Vector3, float, float, float)
+  nameWithType.vb: API_Audio.BL_Play3DOneShot(AudioClip, Vector3, Single, Single, Single)
+- uid: LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot*
+  name: BL_Play3DOneShot
+  href: api/LuaMod.LuaAPI.API_Audio.html#LuaMod_LuaAPI_API_Audio_BL_Play3DOneShot_
+  commentId: Overload:LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Audio.BL_Play3DOneShot
+  nameWithType: API_Audio.BL_Play3DOneShot
+- uid: LuaMod.LuaAPI.API_Audio.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Audio.html#LuaMod_LuaAPI_API_Audio_Instance
+  commentId: F:LuaMod.LuaAPI.API_Audio.Instance
+  fullName: LuaMod.LuaAPI.API_Audio.Instance
+  nameWithType: API_Audio.Instance
+- uid: LuaMod.LuaAPI.API_BoneMenu
+  name: API_BoneMenu
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html
+  commentId: T:LuaMod.LuaAPI.API_BoneMenu
+  fullName: LuaMod.LuaAPI.API_BoneMenu
+  nameWithType: API_BoneMenu
+- uid: LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction(BoneLib.BoneMenu.Page,System.String,UnityEngine.Color,LuaMod.LuaBehaviour,System.String)
+  name: BL_CreateFunction(Page, string, Color, LuaBehaviour, string)
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_BL_CreateFunction_BoneLib_BoneMenu_Page_System_String_UnityEngine_Color_LuaMod_LuaBehaviour_System_String_
+  commentId: M:LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction(BoneLib.BoneMenu.Page,System.String,UnityEngine.Color,LuaMod.LuaBehaviour,System.String)
+  name.vb: BL_CreateFunction(Page, String, Color, LuaBehaviour, String)
+  fullName: LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction(BoneLib.BoneMenu.Page, string, UnityEngine.Color, LuaMod.LuaBehaviour, string)
+  fullName.vb: LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction(BoneLib.BoneMenu.Page, String, UnityEngine.Color, LuaMod.LuaBehaviour, String)
+  nameWithType: API_BoneMenu.BL_CreateFunction(Page, string, Color, LuaBehaviour, string)
+  nameWithType.vb: API_BoneMenu.BL_CreateFunction(Page, String, Color, LuaBehaviour, String)
+- uid: LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction*
+  name: BL_CreateFunction
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_BL_CreateFunction_
+  commentId: Overload:LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_BoneMenu.BL_CreateFunction
+  nameWithType: API_BoneMenu.BL_CreateFunction
+- uid: LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage(BoneLib.BoneMenu.Page)
+  name: BL_DeletePage(Page)
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_BL_DeletePage_BoneLib_BoneMenu_Page_
+  commentId: M:LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage(BoneLib.BoneMenu.Page)
+  fullName: LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage(BoneLib.BoneMenu.Page)
+  nameWithType: API_BoneMenu.BL_DeletePage(Page)
+- uid: LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage*
+  name: BL_DeletePage
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_BL_DeletePage_
+  commentId: Overload:LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_BoneMenu.BL_DeletePage
+  nameWithType: API_BoneMenu.BL_DeletePage
+- uid: LuaMod.LuaAPI.API_BoneMenu.BL_Page
+  name: BL_Page
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_BL_Page
+  commentId: F:LuaMod.LuaAPI.API_BoneMenu.BL_Page
+  fullName: LuaMod.LuaAPI.API_BoneMenu.BL_Page
+  nameWithType: API_BoneMenu.BL_Page
+- uid: LuaMod.LuaAPI.API_BoneMenu.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_Instance
+  commentId: F:LuaMod.LuaAPI.API_BoneMenu.Instance
+  fullName: LuaMod.LuaAPI.API_BoneMenu.Instance
+  nameWithType: API_BoneMenu.Instance
+- uid: LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction
+  name: InvokeFloatAction()
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_InvokeFloatAction
+  commentId: M:LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction
+  fullName: LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction()
+  nameWithType: API_BoneMenu.InvokeFloatAction()
+- uid: LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction*
+  name: InvokeFloatAction
+  href: api/LuaMod.LuaAPI.API_BoneMenu.html#LuaMod_LuaAPI_API_BoneMenu_InvokeFloatAction_
+  commentId: Overload:LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_BoneMenu.InvokeFloatAction
+  nameWithType: API_BoneMenu.InvokeFloatAction
+- uid: LuaMod.LuaAPI.API_Events
+  name: API_Events
+  href: api/LuaMod.LuaAPI.API_Events.html
+  commentId: T:LuaMod.LuaAPI.API_Events
+  fullName: LuaMod.LuaAPI.API_Events
+  nameWithType: API_Events
+- uid: LuaMod.LuaAPI.API_Events.BL_InvokeEvent(System.String,MoonSharp.Interpreter.DynValue[])
+  name: BL_InvokeEvent(string, params DynValue[])
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_BL_InvokeEvent_System_String_MoonSharp_Interpreter_DynValue___
+  commentId: M:LuaMod.LuaAPI.API_Events.BL_InvokeEvent(System.String,MoonSharp.Interpreter.DynValue[])
+  name.vb: BL_InvokeEvent(String, ParamArray DynValue())
+  fullName: LuaMod.LuaAPI.API_Events.BL_InvokeEvent(string, params MoonSharp.Interpreter.DynValue[])
+  fullName.vb: LuaMod.LuaAPI.API_Events.BL_InvokeEvent(String, ParamArray MoonSharp.Interpreter.DynValue())
+  nameWithType: API_Events.BL_InvokeEvent(string, params DynValue[])
+  nameWithType.vb: API_Events.BL_InvokeEvent(String, ParamArray DynValue())
+- uid: LuaMod.LuaAPI.API_Events.BL_InvokeEvent*
+  name: BL_InvokeEvent
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_BL_InvokeEvent_
+  commentId: Overload:LuaMod.LuaAPI.API_Events.BL_InvokeEvent
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Events.BL_InvokeEvent
+  nameWithType: API_Events.BL_InvokeEvent
+- uid: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(System.String,LuaMod.LuaBehaviour,System.String)
+  name: BL_SubscribeEvent(string, LuaBehaviour, string)
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_BL_SubscribeEvent_System_String_LuaMod_LuaBehaviour_System_String_
+  commentId: M:LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(System.String,LuaMod.LuaBehaviour,System.String)
+  name.vb: BL_SubscribeEvent(String, LuaBehaviour, String)
+  fullName: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(string, LuaMod.LuaBehaviour, string)
+  fullName.vb: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(String, LuaMod.LuaBehaviour, String)
+  nameWithType: API_Events.BL_SubscribeEvent(string, LuaBehaviour, string)
+  nameWithType.vb: API_Events.BL_SubscribeEvent(String, LuaBehaviour, String)
+- uid: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(UnityEngine.Events.UnityEvent,LuaMod.LuaBehaviour,System.String)
+  name: BL_SubscribeEvent(UnityEvent, LuaBehaviour, string)
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_BL_SubscribeEvent_UnityEngine_Events_UnityEvent_LuaMod_LuaBehaviour_System_String_
+  commentId: M:LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(UnityEngine.Events.UnityEvent,LuaMod.LuaBehaviour,System.String)
+  name.vb: BL_SubscribeEvent(UnityEvent, LuaBehaviour, String)
+  fullName: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(UnityEngine.Events.UnityEvent, LuaMod.LuaBehaviour, string)
+  fullName.vb: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent(UnityEngine.Events.UnityEvent, LuaMod.LuaBehaviour, String)
+  nameWithType: API_Events.BL_SubscribeEvent(UnityEvent, LuaBehaviour, string)
+  nameWithType.vb: API_Events.BL_SubscribeEvent(UnityEvent, LuaBehaviour, String)
+- uid: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent*
+  name: BL_SubscribeEvent
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_BL_SubscribeEvent_
+  commentId: Overload:LuaMod.LuaAPI.API_Events.BL_SubscribeEvent
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Events.BL_SubscribeEvent
+  nameWithType: API_Events.BL_SubscribeEvent
+- uid: LuaMod.LuaAPI.API_Events.EventListeners
+  name: EventListeners
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_EventListeners
+  commentId: F:LuaMod.LuaAPI.API_Events.EventListeners
+  fullName: LuaMod.LuaAPI.API_Events.EventListeners
+  nameWithType: API_Events.EventListeners
+- uid: LuaMod.LuaAPI.API_Events.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_Instance
+  commentId: F:LuaMod.LuaAPI.API_Events.Instance
+  fullName: LuaMod.LuaAPI.API_Events.Instance
+  nameWithType: API_Events.Instance
+- uid: LuaMod.LuaAPI.API_Events.SetUpEvents
+  name: SetUpEvents()
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_SetUpEvents
+  commentId: M:LuaMod.LuaAPI.API_Events.SetUpEvents
+  fullName: LuaMod.LuaAPI.API_Events.SetUpEvents()
+  nameWithType: API_Events.SetUpEvents()
+- uid: LuaMod.LuaAPI.API_Events.SetUpEvents*
+  name: SetUpEvents
+  href: api/LuaMod.LuaAPI.API_Events.html#LuaMod_LuaAPI_API_Events_SetUpEvents_
+  commentId: Overload:LuaMod.LuaAPI.API_Events.SetUpEvents
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Events.SetUpEvents
+  nameWithType: API_Events.SetUpEvents
+- uid: LuaMod.LuaAPI.API_FileAccess
+  name: API_FileAccess
+  href: api/LuaMod.LuaAPI.API_FileAccess.html
+  commentId: T:LuaMod.LuaAPI.API_FileAccess
+  fullName: LuaMod.LuaAPI.API_FileAccess
+  nameWithType: API_FileAccess
+- uid: LuaMod.LuaAPI.API_FileAccess.BL_FileExists(System.String)
+  name: BL_FileExists(string)
+  href: api/LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_BL_FileExists_System_String_
+  commentId: M:LuaMod.LuaAPI.API_FileAccess.BL_FileExists(System.String)
+  name.vb: BL_FileExists(String)
+  fullName: LuaMod.LuaAPI.API_FileAccess.BL_FileExists(string)
+  fullName.vb: LuaMod.LuaAPI.API_FileAccess.BL_FileExists(String)
+  nameWithType: API_FileAccess.BL_FileExists(string)
+  nameWithType.vb: API_FileAccess.BL_FileExists(String)
+- uid: LuaMod.LuaAPI.API_FileAccess.BL_FileExists*
+  name: BL_FileExists
+  href: api/LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_BL_FileExists_
+  commentId: Overload:LuaMod.LuaAPI.API_FileAccess.BL_FileExists
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_FileAccess.BL_FileExists
+  nameWithType: API_FileAccess.BL_FileExists
+- uid: LuaMod.LuaAPI.API_FileAccess.BL_OpenFile(System.String)
+  name: BL_OpenFile(string)
+  href: api/LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_BL_OpenFile_System_String_
+  commentId: M:LuaMod.LuaAPI.API_FileAccess.BL_OpenFile(System.String)
+  name.vb: BL_OpenFile(String)
+  fullName: LuaMod.LuaAPI.API_FileAccess.BL_OpenFile(string)
+  fullName.vb: LuaMod.LuaAPI.API_FileAccess.BL_OpenFile(String)
+  nameWithType: API_FileAccess.BL_OpenFile(string)
+  nameWithType.vb: API_FileAccess.BL_OpenFile(String)
+- uid: LuaMod.LuaAPI.API_FileAccess.BL_OpenFile*
+  name: BL_OpenFile
+  href: api/LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_BL_OpenFile_
+  commentId: Overload:LuaMod.LuaAPI.API_FileAccess.BL_OpenFile
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_FileAccess.BL_OpenFile
+  nameWithType: API_FileAccess.BL_OpenFile
+- uid: LuaMod.LuaAPI.API_FileAccess.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_FileAccess.html#LuaMod_LuaAPI_API_FileAccess_Instance
+  commentId: F:LuaMod.LuaAPI.API_FileAccess.Instance
+  fullName: LuaMod.LuaAPI.API_FileAccess.Instance
+  nameWithType: API_FileAccess.Instance
+- uid: LuaMod.LuaAPI.API_GameObject
+  name: API_GameObject
+  href: api/LuaMod.LuaAPI.API_GameObject.html
+  commentId: T:LuaMod.LuaAPI.API_GameObject
+  fullName: LuaMod.LuaAPI.API_GameObject
+  nameWithType: API_GameObject
+- uid: LuaMod.LuaAPI.API_GameObject.BL_AddComponent(UnityEngine.GameObject,System.String)
+  name: BL_AddComponent(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_AddComponent_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_AddComponent(UnityEngine.GameObject,System.String)
+  name.vb: BL_AddComponent(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_AddComponent(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_AddComponent(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_AddComponent(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_AddComponent(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_AddComponent*
+  name: BL_AddComponent
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_AddComponent_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_AddComponent
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_AddComponent
+  nameWithType: API_GameObject.BL_AddComponent
+- uid: LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject
+  name: BL_CreateEmptyGameObject()
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_CreateEmptyGameObject
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject()
+  nameWithType: API_GameObject.BL_CreateEmptyGameObject()
+- uid: LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject*
+  name: BL_CreateEmptyGameObject
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_CreateEmptyGameObject_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_CreateEmptyGameObject
+  nameWithType: API_GameObject.BL_CreateEmptyGameObject
+- uid: LuaMod.LuaAPI.API_GameObject.BL_Destroy(UnityEngine.Object)
+  name: BL_Destroy(Object)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_Destroy_UnityEngine_Object_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_Destroy(UnityEngine.Object)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_Destroy(UnityEngine.Object)
+  nameWithType: API_GameObject.BL_Destroy(Object)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_Destroy*
+  name: BL_Destroy
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_Destroy_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_Destroy
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_Destroy
+  nameWithType: API_GameObject.BL_Destroy
+- uid: LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject(UnityEngine.GameObject)
+  name: BL_DestroyGameObject(GameObject)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_DestroyGameObject_UnityEngine_GameObject_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject(UnityEngine.GameObject)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject(UnityEngine.GameObject)
+  nameWithType: API_GameObject.BL_DestroyGameObject(GameObject)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject*
+  name: BL_DestroyGameObject
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_DestroyGameObject_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_DestroyGameObject
+  nameWithType: API_GameObject.BL_DestroyGameObject
+- uid: LuaMod.LuaAPI.API_GameObject.BL_EntityPose(System.String)
+  name: BL_EntityPose(string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_EntityPose_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_EntityPose(System.String)
+  name.vb: BL_EntityPose(String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_EntityPose(string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_EntityPose(String)
+  nameWithType: API_GameObject.BL_EntityPose(string)
+  nameWithType.vb: API_GameObject.BL_EntityPose(String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_EntityPose*
+  name: BL_EntityPose
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_EntityPose_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_EntityPose
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_EntityPose
+  nameWithType: API_GameObject.BL_EntityPose
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren(UnityEngine.GameObject,System.String)
+  name: BL_FindAllInChildren(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindAllInChildren_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren(UnityEngine.GameObject,System.String)
+  name.vb: BL_FindAllInChildren(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_FindAllInChildren(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_FindAllInChildren(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren*
+  name: BL_FindAllInChildren
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindAllInChildren_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindAllInChildren
+  nameWithType: API_GameObject.BL_FindAllInChildren
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld(System.String)
+  name: BL_FindAllInWorld(string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindAllInWorld_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld(System.String)
+  name.vb: BL_FindAllInWorld(String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld(string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld(String)
+  nameWithType: API_GameObject.BL_FindAllInWorld(string)
+  nameWithType.vb: API_GameObject.BL_FindAllInWorld(String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld*
+  name: BL_FindAllInWorld
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindAllInWorld_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindAllInWorld
+  nameWithType: API_GameObject.BL_FindAllInWorld
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindInChildren(UnityEngine.GameObject,System.String)
+  name: BL_FindInChildren(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindInChildren_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_FindInChildren(UnityEngine.GameObject,System.String)
+  name.vb: BL_FindInChildren(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindInChildren(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_FindInChildren(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_FindInChildren(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_FindInChildren(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindInChildren*
+  name: BL_FindInChildren
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindInChildren_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_FindInChildren
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindInChildren
+  nameWithType: API_GameObject.BL_FindInChildren
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindInWorld(System.String)
+  name: BL_FindInWorld(string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindInWorld_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_FindInWorld(System.String)
+  name.vb: BL_FindInWorld(String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindInWorld(string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_FindInWorld(String)
+  nameWithType: API_GameObject.BL_FindInWorld(string)
+  nameWithType.vb: API_GameObject.BL_FindInWorld(String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_FindInWorld*
+  name: BL_FindInWorld
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_FindInWorld_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_FindInWorld
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_FindInWorld
+  nameWithType: API_GameObject.BL_FindInWorld
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponent(UnityEngine.GameObject,System.String)
+  name: BL_GetComponent(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponent_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_GetComponent(UnityEngine.GameObject,System.String)
+  name.vb: BL_GetComponent(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponent(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_GetComponent(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_GetComponent(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_GetComponent(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponent*
+  name: BL_GetComponent
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponent_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_GetComponent
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponent
+  nameWithType: API_GameObject.BL_GetComponent
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren(UnityEngine.GameObject,System.String)
+  name: BL_GetComponentInChildren(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponentInChildren_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren(UnityEngine.GameObject,System.String)
+  name.vb: BL_GetComponentInChildren(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_GetComponentInChildren(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_GetComponentInChildren(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren*
+  name: BL_GetComponentInChildren
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponentInChildren_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponentInChildren
+  nameWithType: API_GameObject.BL_GetComponentInChildren
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponents(UnityEngine.GameObject,System.String)
+  name: BL_GetComponents(GameObject, string)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponents_UnityEngine_GameObject_System_String_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_GetComponents(UnityEngine.GameObject,System.String)
+  name.vb: BL_GetComponents(GameObject, String)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponents(UnityEngine.GameObject, string)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_GetComponents(UnityEngine.GameObject, String)
+  nameWithType: API_GameObject.BL_GetComponents(GameObject, string)
+  nameWithType.vb: API_GameObject.BL_GetComponents(GameObject, String)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponents*
+  name: BL_GetComponents
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponents_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_GetComponents
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponents
+  nameWithType: API_GameObject.BL_GetComponents
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren(UnityEngine.GameObject,System.String,System.Boolean)
+  name: BL_GetComponentsInChildren(GameObject, string, bool)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponentsInChildren_UnityEngine_GameObject_System_String_System_Boolean_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren(UnityEngine.GameObject,System.String,System.Boolean)
+  name.vb: BL_GetComponentsInChildren(GameObject, String, Boolean)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren(UnityEngine.GameObject, string, bool)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren(UnityEngine.GameObject, String, Boolean)
+  nameWithType: API_GameObject.BL_GetComponentsInChildren(GameObject, string, bool)
+  nameWithType.vb: API_GameObject.BL_GetComponentsInChildren(GameObject, String, Boolean)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren*
+  name: BL_GetComponentsInChildren
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_GetComponentsInChildren_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_GetComponentsInChildren
+  nameWithType: API_GameObject.BL_GetComponentsInChildren
+- uid: LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject(UnityEngine.GameObject)
+  name: BL_InstantiateGameObject(GameObject)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_InstantiateGameObject_UnityEngine_GameObject_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject(UnityEngine.GameObject)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject(UnityEngine.GameObject)
+  nameWithType: API_GameObject.BL_InstantiateGameObject(GameObject)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject*
+  name: BL_InstantiateGameObject
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_InstantiateGameObject_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_InstantiateGameObject
+  nameWithType: API_GameObject.BL_InstantiateGameObject
+- uid: LuaMod.LuaAPI.API_GameObject.BL_IsValid(UnityEngine.Object)
+  name: BL_IsValid(Object)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_IsValid_UnityEngine_Object_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_IsValid(UnityEngine.Object)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_IsValid(UnityEngine.Object)
+  nameWithType: API_GameObject.BL_IsValid(Object)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_IsValid*
+  name: BL_IsValid
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_IsValid_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_IsValid
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_IsValid
+  nameWithType: API_GameObject.BL_IsValid
+- uid: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(LuaMod.LuaBehaviour,System.String,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.GameObject,System.Boolean)
+  name: BL_SpawnByBarcode(LuaBehaviour, string, string, Vector3, Quaternion, GameObject, bool)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_SpawnByBarcode_LuaMod_LuaBehaviour_System_String_System_String_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_GameObject_System_Boolean_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(LuaMod.LuaBehaviour,System.String,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.GameObject,System.Boolean)
+  name.vb: BL_SpawnByBarcode(LuaBehaviour, String, String, Vector3, Quaternion, GameObject, Boolean)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(LuaMod.LuaBehaviour, string, string, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.GameObject, bool)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(LuaMod.LuaBehaviour, String, String, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.GameObject, Boolean)
+  nameWithType: API_GameObject.BL_SpawnByBarcode(LuaBehaviour, string, string, Vector3, Quaternion, GameObject, bool)
+  nameWithType.vb: API_GameObject.BL_SpawnByBarcode(LuaBehaviour, String, String, Vector3, Quaternion, GameObject, Boolean)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(System.String,UnityEngine.Vector3,UnityEngine.Quaternion)
+  name: BL_SpawnByBarcode(string, Vector3, Quaternion)
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_SpawnByBarcode_System_String_UnityEngine_Vector3_UnityEngine_Quaternion_
+  commentId: M:LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(System.String,UnityEngine.Vector3,UnityEngine.Quaternion)
+  name.vb: BL_SpawnByBarcode(String, Vector3, Quaternion)
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(string, UnityEngine.Vector3, UnityEngine.Quaternion)
+  fullName.vb: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode(String, UnityEngine.Vector3, UnityEngine.Quaternion)
+  nameWithType: API_GameObject.BL_SpawnByBarcode(string, Vector3, Quaternion)
+  nameWithType.vb: API_GameObject.BL_SpawnByBarcode(String, Vector3, Quaternion)
+- uid: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode*
+  name: BL_SpawnByBarcode
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_BL_SpawnByBarcode_
+  commentId: Overload:LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_GameObject.BL_SpawnByBarcode
+  nameWithType: API_GameObject.BL_SpawnByBarcode
+- uid: LuaMod.LuaAPI.API_GameObject.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_GameObject.html#LuaMod_LuaAPI_API_GameObject_Instance
+  commentId: F:LuaMod.LuaAPI.API_GameObject.Instance
+  fullName: LuaMod.LuaAPI.API_GameObject.Instance
+  nameWithType: API_GameObject.Instance
+- uid: LuaMod.LuaAPI.API_Input
+  name: API_Input
+  href: api/LuaMod.LuaAPI.API_Input.html
+  commentId: T:LuaMod.LuaAPI.API_Input
+  fullName: LuaMod.LuaAPI.API_Input
+  nameWithType: API_Input
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonDown
+  name: BL_IsAButtonDown()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonDown
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsAButtonDown
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonDown()
+  nameWithType: API_Input.BL_IsAButtonDown()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonDown*
+  name: BL_IsAButtonDown
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonDown_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsAButtonDown
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonDown
+  nameWithType: API_Input.BL_IsAButtonDown
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce
+  name: BL_IsAButtonDownOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonDownOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce()
+  nameWithType: API_Input.BL_IsAButtonDownOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce*
+  name: BL_IsAButtonDownOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonDownOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonDownOnce
+  nameWithType: API_Input.BL_IsAButtonDownOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce
+  name: BL_IsAButtonUpOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonUpOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce()
+  nameWithType: API_Input.BL_IsAButtonUpOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce*
+  name: BL_IsAButtonUpOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsAButtonUpOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsAButtonUpOnce
+  nameWithType: API_Input.BL_IsAButtonUpOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonDown
+  name: BL_IsBButtonDown()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonDown
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsBButtonDown
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonDown()
+  nameWithType: API_Input.BL_IsBButtonDown()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonDown*
+  name: BL_IsBButtonDown
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonDown_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsBButtonDown
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonDown
+  nameWithType: API_Input.BL_IsBButtonDown
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce
+  name: BL_IsBButtonDownOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonDownOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce()
+  nameWithType: API_Input.BL_IsBButtonDownOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce*
+  name: BL_IsBButtonDownOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonDownOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonDownOnce
+  nameWithType: API_Input.BL_IsBButtonDownOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce
+  name: BL_IsBButtonUpOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonUpOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce()
+  nameWithType: API_Input.BL_IsBButtonUpOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce*
+  name: BL_IsBButtonUpOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsBButtonUpOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsBButtonUpOnce
+  nameWithType: API_Input.BL_IsBButtonUpOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsKeyDown(System.Int32)
+  name: BL_IsKeyDown(int)
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsKeyDown_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsKeyDown(System.Int32)
+  name.vb: BL_IsKeyDown(Integer)
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsKeyDown(int)
+  fullName.vb: LuaMod.LuaAPI.API_Input.BL_IsKeyDown(Integer)
+  nameWithType: API_Input.BL_IsKeyDown(int)
+  nameWithType.vb: API_Input.BL_IsKeyDown(Integer)
+- uid: LuaMod.LuaAPI.API_Input.BL_IsKeyDown*
+  name: BL_IsKeyDown
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsKeyDown_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsKeyDown
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsKeyDown
+  nameWithType: API_Input.BL_IsKeyDown
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonDown
+  name: BL_IsXButtonDown()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonDown
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsXButtonDown
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonDown()
+  nameWithType: API_Input.BL_IsXButtonDown()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonDown*
+  name: BL_IsXButtonDown
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonDown_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsXButtonDown
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonDown
+  nameWithType: API_Input.BL_IsXButtonDown
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce
+  name: BL_IsXButtonDownOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonDownOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce()
+  nameWithType: API_Input.BL_IsXButtonDownOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce*
+  name: BL_IsXButtonDownOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonDownOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonDownOnce
+  nameWithType: API_Input.BL_IsXButtonDownOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce
+  name: BL_IsXButtonUpOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonUpOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce()
+  nameWithType: API_Input.BL_IsXButtonUpOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce*
+  name: BL_IsXButtonUpOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsXButtonUpOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsXButtonUpOnce
+  nameWithType: API_Input.BL_IsXButtonUpOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonDown
+  name: BL_IsYButtonDown()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonDown
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsYButtonDown
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonDown()
+  nameWithType: API_Input.BL_IsYButtonDown()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonDown*
+  name: BL_IsYButtonDown
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonDown_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsYButtonDown
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonDown
+  nameWithType: API_Input.BL_IsYButtonDown
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce
+  name: BL_IsYButtonDownOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonDownOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce()
+  nameWithType: API_Input.BL_IsYButtonDownOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce*
+  name: BL_IsYButtonDownOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonDownOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonDownOnce
+  nameWithType: API_Input.BL_IsYButtonDownOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce
+  name: BL_IsYButtonUpOnce()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonUpOnce
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce()
+  nameWithType: API_Input.BL_IsYButtonUpOnce()
+- uid: LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce*
+  name: BL_IsYButtonUpOnce
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_IsYButtonUpOnce_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_IsYButtonUpOnce
+  nameWithType: API_Input.BL_IsYButtonUpOnce
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed
+  name: BL_LeftController_IsGrabbed()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftController_IsGrabbed
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed()
+  nameWithType: API_Input.BL_LeftController_IsGrabbed()
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed*
+  name: BL_LeftController_IsGrabbed
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftController_IsGrabbed_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftController_IsGrabbed
+  nameWithType: API_Input.BL_LeftController_IsGrabbed
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftHand
+  name: BL_LeftHand()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftHand
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_LeftHand
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftHand()
+  nameWithType: API_Input.BL_LeftHand()
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftHand*
+  name: BL_LeftHand
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftHand_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_LeftHand
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftHand
+  nameWithType: API_Input.BL_LeftHand
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty
+  name: BL_LeftHandEmpty()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftHandEmpty
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty()
+  nameWithType: API_Input.BL_LeftHandEmpty()
+- uid: LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty*
+  name: BL_LeftHandEmpty
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_LeftHandEmpty_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_LeftHandEmpty
+  nameWithType: API_Input.BL_LeftHandEmpty
+- uid: LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed
+  name: BL_RightController_IsGrabbed()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightController_IsGrabbed
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed()
+  nameWithType: API_Input.BL_RightController_IsGrabbed()
+- uid: LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed*
+  name: BL_RightController_IsGrabbed
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightController_IsGrabbed_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightController_IsGrabbed
+  nameWithType: API_Input.BL_RightController_IsGrabbed
+- uid: LuaMod.LuaAPI.API_Input.BL_RightHand
+  name: BL_RightHand()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightHand
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_RightHand
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightHand()
+  nameWithType: API_Input.BL_RightHand()
+- uid: LuaMod.LuaAPI.API_Input.BL_RightHand*
+  name: BL_RightHand
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightHand_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_RightHand
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightHand
+  nameWithType: API_Input.BL_RightHand
+- uid: LuaMod.LuaAPI.API_Input.BL_RightHandEmpty
+  name: BL_RightHandEmpty()
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightHandEmpty
+  commentId: M:LuaMod.LuaAPI.API_Input.BL_RightHandEmpty
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightHandEmpty()
+  nameWithType: API_Input.BL_RightHandEmpty()
+- uid: LuaMod.LuaAPI.API_Input.BL_RightHandEmpty*
+  name: BL_RightHandEmpty
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_BL_RightHandEmpty_
+  commentId: Overload:LuaMod.LuaAPI.API_Input.BL_RightHandEmpty
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Input.BL_RightHandEmpty
+  nameWithType: API_Input.BL_RightHandEmpty
+- uid: LuaMod.LuaAPI.API_Input.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Input.html#LuaMod_LuaAPI_API_Input_Instance
+  commentId: F:LuaMod.LuaAPI.API_Input.Instance
+  fullName: LuaMod.LuaAPI.API_Input.Instance
+  nameWithType: API_Input.Instance
+- uid: LuaMod.LuaAPI.API_Particles
+  name: API_Particles
+  href: api/LuaMod.LuaAPI.API_Particles.html
+  commentId: T:LuaMod.LuaAPI.API_Particles
+  fullName: LuaMod.LuaAPI.API_Particles
+  nameWithType: API_Particles
+- uid: LuaMod.LuaAPI.API_Particles.BL_GetParticles(UnityEngine.ParticleSystem,System.Int32,System.Int32)
+  name: BL_GetParticles(ParticleSystem, int, int)
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_BL_GetParticles_UnityEngine_ParticleSystem_System_Int32_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Particles.BL_GetParticles(UnityEngine.ParticleSystem,System.Int32,System.Int32)
+  name.vb: BL_GetParticles(ParticleSystem, Integer, Integer)
+  fullName: LuaMod.LuaAPI.API_Particles.BL_GetParticles(UnityEngine.ParticleSystem, int, int)
+  fullName.vb: LuaMod.LuaAPI.API_Particles.BL_GetParticles(UnityEngine.ParticleSystem, Integer, Integer)
+  nameWithType: API_Particles.BL_GetParticles(ParticleSystem, int, int)
+  nameWithType.vb: API_Particles.BL_GetParticles(ParticleSystem, Integer, Integer)
+- uid: LuaMod.LuaAPI.API_Particles.BL_GetParticles*
+  name: BL_GetParticles
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_BL_GetParticles_
+  commentId: Overload:LuaMod.LuaAPI.API_Particles.BL_GetParticles
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Particles.BL_GetParticles
+  nameWithType: API_Particles.BL_GetParticles
+- uid: LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions(UnityEngine.LineRenderer)
+  name: BL_lineRenderer_GetPositions(LineRenderer)
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_BL_lineRenderer_GetPositions_UnityEngine_LineRenderer_
+  commentId: M:LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions(UnityEngine.LineRenderer)
+  fullName: LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions(UnityEngine.LineRenderer)
+  nameWithType: API_Particles.BL_lineRenderer_GetPositions(LineRenderer)
+- uid: LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions*
+  name: BL_lineRenderer_GetPositions
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_BL_lineRenderer_GetPositions_
+  commentId: Overload:LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Particles.BL_lineRenderer_GetPositions
+  nameWithType: API_Particles.BL_lineRenderer_GetPositions
+- uid: LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray(System.Int32)
+  name: CreateTrailSegmentArray(int)
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_CreateTrailSegmentArray_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray(System.Int32)
+  name.vb: CreateTrailSegmentArray(Integer)
+  fullName: LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray(int)
+  fullName.vb: LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray(Integer)
+  nameWithType: API_Particles.CreateTrailSegmentArray(int)
+  nameWithType.vb: API_Particles.CreateTrailSegmentArray(Integer)
+- uid: LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray*
+  name: CreateTrailSegmentArray
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_CreateTrailSegmentArray_
+  commentId: Overload:LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Particles.CreateTrailSegmentArray
+  nameWithType: API_Particles.CreateTrailSegmentArray
+- uid: LuaMod.LuaAPI.API_Particles.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Particles.html#LuaMod_LuaAPI_API_Particles_Instance
+  commentId: F:LuaMod.LuaAPI.API_Particles.Instance
+  fullName: LuaMod.LuaAPI.API_Particles.Instance
+  nameWithType: API_Particles.Instance
+- uid: LuaMod.LuaAPI.API_Physics
+  name: API_Physics
+  href: api/LuaMod.LuaAPI.API_Physics.html
+  commentId: T:LuaMod.LuaAPI.API_Physics
+  fullName: LuaMod.LuaAPI.API_Physics
+  nameWithType: API_Physics
+- uid: LuaMod.LuaAPI.API_Physics.BL_BoxCast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32)
+  name: BL_BoxCast(Vector3, Vector3, Vector3, Quaternion, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_BoxCast_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_BoxCast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32)
+  name.vb: BL_BoxCast(Vector3, Vector3, Vector3, Quaternion, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_BoxCast(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_BoxCast(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion, Single, Integer)
+  nameWithType: API_Physics.BL_BoxCast(Vector3, Vector3, Vector3, Quaternion, float, int)
+  nameWithType.vb: API_Physics.BL_BoxCast(Vector3, Vector3, Vector3, Quaternion, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_BoxCast*
+  name: BL_BoxCast
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_BoxCast_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_BoxCast
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_BoxCast
+  nameWithType: API_Physics.BL_BoxCast
+- uid: LuaMod.LuaAPI.API_Physics.BL_BoxCastAll(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32)
+  name: BL_BoxCastAll(Vector3, Vector3, Vector3, Quaternion, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_BoxCastAll_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_BoxCastAll(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32)
+  name.vb: BL_BoxCastAll(Vector3, Vector3, Vector3, Quaternion, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_BoxCastAll(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_BoxCastAll(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion, Single, Integer)
+  nameWithType: API_Physics.BL_BoxCastAll(Vector3, Vector3, Vector3, Quaternion, float, int)
+  nameWithType.vb: API_Physics.BL_BoxCastAll(Vector3, Vector3, Vector3, Quaternion, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_BoxCastAll*
+  name: BL_BoxCastAll
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_BoxCastAll_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_BoxCastAll
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_BoxCastAll
+  nameWithType: API_Physics.BL_BoxCastAll
+- uid: LuaMod.LuaAPI.API_Physics.BL_CapsuleCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name: BL_CapsuleCast(Vector3, Vector3, float, Vector3, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_CapsuleCast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_CapsuleCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name.vb: BL_CapsuleCast(Vector3, Vector3, Single, Vector3, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_CapsuleCast(UnityEngine.Vector3, UnityEngine.Vector3, float, UnityEngine.Vector3, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_CapsuleCast(UnityEngine.Vector3, UnityEngine.Vector3, Single, UnityEngine.Vector3, Single, Integer)
+  nameWithType: API_Physics.BL_CapsuleCast(Vector3, Vector3, float, Vector3, float, int)
+  nameWithType.vb: API_Physics.BL_CapsuleCast(Vector3, Vector3, Single, Vector3, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_CapsuleCast*
+  name: BL_CapsuleCast
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_CapsuleCast_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_CapsuleCast
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_CapsuleCast
+  nameWithType: API_Physics.BL_CapsuleCast
+- uid: LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name: BL_CapsuleCastAll(Vector3, Vector3, float, Vector3, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_CapsuleCastAll_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name.vb: BL_CapsuleCastAll(Vector3, Vector3, Single, Vector3, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll(UnityEngine.Vector3, UnityEngine.Vector3, float, UnityEngine.Vector3, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll(UnityEngine.Vector3, UnityEngine.Vector3, Single, UnityEngine.Vector3, Single, Integer)
+  nameWithType: API_Physics.BL_CapsuleCastAll(Vector3, Vector3, float, Vector3, float, int)
+  nameWithType.vb: API_Physics.BL_CapsuleCastAll(Vector3, Vector3, Single, Vector3, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll*
+  name: BL_CapsuleCastAll
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_CapsuleCastAll_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_CapsuleCastAll
+  nameWithType: API_Physics.BL_CapsuleCastAll
+- uid: LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: BL_RayCast(Vector3, Vector3)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_RayCast_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: API_Physics.BL_RayCast(Vector3, Vector3)
+- uid: LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: BL_RayCast(Vector3, Vector3, float)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_RayCast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: BL_RayCast(Vector3, Vector3, Single)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_RayCast(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: API_Physics.BL_RayCast(Vector3, Vector3, float)
+  nameWithType.vb: API_Physics.BL_RayCast(Vector3, Vector3, Single)
+- uid: LuaMod.LuaAPI.API_Physics.BL_RayCast*
+  name: BL_RayCast
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_RayCast_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_RayCast
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_RayCast
+  nameWithType: API_Physics.BL_RayCast
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: BL_SphereCast(Vector3, Vector3, float)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: BL_SphereCast(Vector3, Vector3, Single)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: API_Physics.BL_SphereCast(Vector3, Vector3, float)
+  nameWithType.vb: API_Physics.BL_SphereCast(Vector3, Vector3, Single)
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  name: BL_SphereCast(Vector3, Vector3, float, float)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  name.vb: BL_SphereCast(Vector3, Vector3, Single, Single)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3, UnityEngine.Vector3, float, float)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_SphereCast(UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
+  nameWithType: API_Physics.BL_SphereCast(Vector3, Vector3, float, float)
+  nameWithType.vb: API_Physics.BL_SphereCast(Vector3, Vector3, Single, Single)
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCast*
+  name: BL_SphereCast
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCast_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_SphereCast
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCast
+  nameWithType: API_Physics.BL_SphereCast
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name: BL_SphereCastAll(Vector3, float, Vector3, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCastAll_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Int32)
+  name.vb: BL_SphereCastAll(Vector3, Single, Vector3, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3, float, UnityEngine.Vector3, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3, Single, UnityEngine.Vector3, Single, Integer)
+  nameWithType: API_Physics.BL_SphereCastAll(Vector3, float, Vector3, float, int)
+  nameWithType.vb: API_Physics.BL_SphereCastAll(Vector3, Single, Vector3, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
+  name: BL_SphereCastAll(Vector3, Vector3, float, int)
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCastAll_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
+  name.vb: BL_SphereCastAll(Vector3, Vector3, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3, UnityEngine.Vector3, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll(UnityEngine.Vector3, UnityEngine.Vector3, Single, Integer)
+  nameWithType: API_Physics.BL_SphereCastAll(Vector3, Vector3, float, int)
+  nameWithType.vb: API_Physics.BL_SphereCastAll(Vector3, Vector3, Single, Integer)
+- uid: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll*
+  name: BL_SphereCastAll
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_BL_SphereCastAll_
+  commentId: Overload:LuaMod.LuaAPI.API_Physics.BL_SphereCastAll
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Physics.BL_SphereCastAll
+  nameWithType: API_Physics.BL_SphereCastAll
+- uid: LuaMod.LuaAPI.API_Physics.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Physics.html#LuaMod_LuaAPI_API_Physics_Instance
+  commentId: F:LuaMod.LuaAPI.API_Physics.Instance
+  fullName: LuaMod.LuaAPI.API_Physics.Instance
+  nameWithType: API_Physics.Instance
+- uid: LuaMod.LuaAPI.API_Player
+  name: API_Player
+  href: api/LuaMod.LuaAPI.API_Player.html
+  commentId: T:LuaMod.LuaAPI.API_Player
+  fullName: LuaMod.LuaAPI.API_Player
+  nameWithType: API_Player
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatar
+  name: BL_GetAvatar()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatar
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_GetAvatar
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatar()
+  nameWithType: API_Player.BL_GetAvatar()
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatar*
+  name: BL_GetAvatar
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatar_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_GetAvatar
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatar
+  nameWithType: API_Player.BL_GetAvatar
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter
+  name: BL_GetAvatarCenter()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatarCenter
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter()
+  nameWithType: API_Player.BL_GetAvatarCenter()
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter*
+  name: BL_GetAvatarCenter
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatarCenter_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatarCenter
+  nameWithType: API_Player.BL_GetAvatarCenter
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject
+  name: BL_GetAvatarGameObject()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatarGameObject
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject()
+  nameWithType: API_Player.BL_GetAvatarGameObject()
+- uid: LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject*
+  name: BL_GetAvatarGameObject
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetAvatarGameObject_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetAvatarGameObject
+  nameWithType: API_Player.BL_GetAvatarGameObject
+- uid: LuaMod.LuaAPI.API_Player.BL_GetControllerRig
+  name: BL_GetControllerRig()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetControllerRig
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_GetControllerRig
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetControllerRig()
+  nameWithType: API_Player.BL_GetControllerRig()
+- uid: LuaMod.LuaAPI.API_Player.BL_GetControllerRig*
+  name: BL_GetControllerRig
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetControllerRig_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_GetControllerRig
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetControllerRig
+  nameWithType: API_Player.BL_GetControllerRig
+- uid: LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig
+  name: BL_GetPhysicsRig()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetPhysicsRig
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig()
+  nameWithType: API_Player.BL_GetPhysicsRig()
+- uid: LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig*
+  name: BL_GetPhysicsRig
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_GetPhysicsRig_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_GetPhysicsRig
+  nameWithType: API_Player.BL_GetPhysicsRig
+- uid: LuaMod.LuaAPI.API_Player.BL_PlayerHealth
+  name: BL_PlayerHealth()
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_PlayerHealth
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_PlayerHealth
+  fullName: LuaMod.LuaAPI.API_Player.BL_PlayerHealth()
+  nameWithType: API_Player.BL_PlayerHealth()
+- uid: LuaMod.LuaAPI.API_Player.BL_PlayerHealth*
+  name: BL_PlayerHealth
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_PlayerHealth_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_PlayerHealth
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_PlayerHealth
+  nameWithType: API_Player.BL_PlayerHealth
+- uid: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3)
+  name: BL_SetAvatarPosition(Vector3)
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_SetAvatarPosition_UnityEngine_Vector3_
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3)
+  fullName: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3)
+  nameWithType: API_Player.BL_SetAvatarPosition(Vector3)
+- uid: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3,UnityEngine.Quaternion)
+  name: BL_SetAvatarPosition(Vector3, Quaternion)
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_SetAvatarPosition_UnityEngine_Vector3_UnityEngine_Quaternion_
+  commentId: M:LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3,UnityEngine.Quaternion)
+  fullName: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition(UnityEngine.Vector3, UnityEngine.Quaternion)
+  nameWithType: API_Player.BL_SetAvatarPosition(Vector3, Quaternion)
+- uid: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition*
+  name: BL_SetAvatarPosition
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_BL_SetAvatarPosition_
+  commentId: Overload:LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Player.BL_SetAvatarPosition
+  nameWithType: API_Player.BL_SetAvatarPosition
+- uid: LuaMod.LuaAPI.API_Player.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Player.html#LuaMod_LuaAPI_API_Player_Instance
+  commentId: F:LuaMod.LuaAPI.API_Player.Instance
+  fullName: LuaMod.LuaAPI.API_Player.Instance
+  nameWithType: API_Player.Instance
+- uid: LuaMod.LuaAPI.API_Random
+  name: API_Random
+  href: api/LuaMod.LuaAPI.API_Random.html
+  commentId: T:LuaMod.LuaAPI.API_Random
+  fullName: LuaMod.LuaAPI.API_Random
+  nameWithType: API_Random
+- uid: LuaMod.LuaAPI.API_Random.BL_RandomRange(System.Single,System.Single)
+  name: BL_RandomRange(float, float)
+  href: api/LuaMod.LuaAPI.API_Random.html#LuaMod_LuaAPI_API_Random_BL_RandomRange_System_Single_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Random.BL_RandomRange(System.Single,System.Single)
+  name.vb: BL_RandomRange(Single, Single)
+  fullName: LuaMod.LuaAPI.API_Random.BL_RandomRange(float, float)
+  fullName.vb: LuaMod.LuaAPI.API_Random.BL_RandomRange(Single, Single)
+  nameWithType: API_Random.BL_RandomRange(float, float)
+  nameWithType.vb: API_Random.BL_RandomRange(Single, Single)
+- uid: LuaMod.LuaAPI.API_Random.BL_RandomRange*
+  name: BL_RandomRange
+  href: api/LuaMod.LuaAPI.API_Random.html#LuaMod_LuaAPI_API_Random_BL_RandomRange_
+  commentId: Overload:LuaMod.LuaAPI.API_Random.BL_RandomRange
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Random.BL_RandomRange
+  nameWithType: API_Random.BL_RandomRange
+- uid: LuaMod.LuaAPI.API_Random.BL_onUnitSphere
+  name: BL_onUnitSphere()
+  href: api/LuaMod.LuaAPI.API_Random.html#LuaMod_LuaAPI_API_Random_BL_onUnitSphere
+  commentId: M:LuaMod.LuaAPI.API_Random.BL_onUnitSphere
+  fullName: LuaMod.LuaAPI.API_Random.BL_onUnitSphere()
+  nameWithType: API_Random.BL_onUnitSphere()
+- uid: LuaMod.LuaAPI.API_Random.BL_onUnitSphere*
+  name: BL_onUnitSphere
+  href: api/LuaMod.LuaAPI.API_Random.html#LuaMod_LuaAPI_API_Random_BL_onUnitSphere_
+  commentId: Overload:LuaMod.LuaAPI.API_Random.BL_onUnitSphere
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Random.BL_onUnitSphere
+  nameWithType: API_Random.BL_onUnitSphere
+- uid: LuaMod.LuaAPI.API_Random.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Random.html#LuaMod_LuaAPI_API_Random_Instance
+  commentId: F:LuaMod.LuaAPI.API_Random.Instance
+  fullName: LuaMod.LuaAPI.API_Random.Instance
+  nameWithType: API_Random.Instance
+- uid: LuaMod.LuaAPI.API_SLZ_Combat
+  name: API_SLZ_Combat
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html
+  commentId: T:LuaMod.LuaAPI.API_SLZ_Combat
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat
+  nameWithType: API_SLZ_Combat
+- uid: LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce(UnityEngine.Rigidbody,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: ApplyForce(Rigidbody, Vector3, Vector3, float)
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html#LuaMod_LuaAPI_API_SLZ_Combat_ApplyForce_UnityEngine_Rigidbody_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce(UnityEngine.Rigidbody,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: ApplyForce(Rigidbody, Vector3, Vector3, Single)
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce(UnityEngine.Rigidbody, UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce(UnityEngine.Rigidbody, UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: API_SLZ_Combat.ApplyForce(Rigidbody, Vector3, Vector3, float)
+  nameWithType.vb: API_SLZ_Combat.ApplyForce(Rigidbody, Vector3, Vector3, Single)
+- uid: LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce*
+  name: ApplyForce
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html#LuaMod_LuaAPI_API_SLZ_Combat_ApplyForce_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat.ApplyForce
+  nameWithType: API_SLZ_Combat.ApplyForce
+- uid: LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy(UnityEngine.GameObject,System.Single,UnityEngine.Collider,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: BL_AttackEnemy(GameObject, float, Collider, Vector3, Vector3)
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html#LuaMod_LuaAPI_API_SLZ_Combat_BL_AttackEnemy_UnityEngine_GameObject_System_Single_UnityEngine_Collider_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy(UnityEngine.GameObject,System.Single,UnityEngine.Collider,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: BL_AttackEnemy(GameObject, Single, Collider, Vector3, Vector3)
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy(UnityEngine.GameObject, float, UnityEngine.Collider, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy(UnityEngine.GameObject, Single, UnityEngine.Collider, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: API_SLZ_Combat.BL_AttackEnemy(GameObject, float, Collider, Vector3, Vector3)
+  nameWithType.vb: API_SLZ_Combat.BL_AttackEnemy(GameObject, Single, Collider, Vector3, Vector3)
+- uid: LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy*
+  name: BL_AttackEnemy
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html#LuaMod_LuaAPI_API_SLZ_Combat_BL_AttackEnemy_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat.BL_AttackEnemy
+  nameWithType: API_SLZ_Combat.BL_AttackEnemy
+- uid: LuaMod.LuaAPI.API_SLZ_Combat.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_SLZ_Combat.html#LuaMod_LuaAPI_API_SLZ_Combat_Instance
+  commentId: F:LuaMod.LuaAPI.API_SLZ_Combat.Instance
+  fullName: LuaMod.LuaAPI.API_SLZ_Combat.Instance
+  nameWithType: API_SLZ_Combat.Instance
+- uid: LuaMod.LuaAPI.API_SLZ_NPC
+  name: API_SLZ_NPC
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html
+  commentId: T:LuaMod.LuaAPI.API_SLZ_NPC
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC
+  nameWithType: API_SLZ_NPC
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+  name: BL_CalculatePath(Vector3, Vector3, int)
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_CalculatePath_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+  name.vb: BL_CalculatePath(Vector3, Vector3, Integer)
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath(UnityEngine.Vector3, UnityEngine.Vector3, int)
+  fullName.vb: LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath(UnityEngine.Vector3, UnityEngine.Vector3, Integer)
+  nameWithType: API_SLZ_NPC.BL_CalculatePath(Vector3, Vector3, int)
+  nameWithType.vb: API_SLZ_NPC.BL_CalculatePath(Vector3, Vector3, Integer)
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath*
+  name: BL_CalculatePath
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_CalculatePath_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_CalculatePath
+  nameWithType: API_SLZ_NPC.BL_CalculatePath
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition(UnityEngine.Vector3,System.Single,System.Int32)
+  name: BL_SamplePosition(Vector3, float, int)
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_SamplePosition_UnityEngine_Vector3_System_Single_System_Int32_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition(UnityEngine.Vector3,System.Single,System.Int32)
+  name.vb: BL_SamplePosition(Vector3, Single, Integer)
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition(UnityEngine.Vector3, float, int)
+  fullName.vb: LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition(UnityEngine.Vector3, Single, Integer)
+  nameWithType: API_SLZ_NPC.BL_SamplePosition(Vector3, float, int)
+  nameWithType.vb: API_SLZ_NPC.BL_SamplePosition(Vector3, Single, Integer)
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition*
+  name: BL_SamplePosition
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_SamplePosition_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_SamplePosition
+  nameWithType: API_SLZ_NPC.BL_SamplePosition
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger(UnityEngine.GameObject,UnityEngine.GameObject)
+  name: BL_SetNPCAnger(GameObject, GameObject)
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_SetNPCAnger_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger(UnityEngine.GameObject, UnityEngine.GameObject)
+  nameWithType: API_SLZ_NPC.BL_SetNPCAnger(GameObject, GameObject)
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger*
+  name: BL_SetNPCAnger
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_BL_SetNPCAnger_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.BL_SetNPCAnger
+  nameWithType: API_SLZ_NPC.BL_SetNPCAnger
+- uid: LuaMod.LuaAPI.API_SLZ_NPC.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_SLZ_NPC.html#LuaMod_LuaAPI_API_SLZ_NPC_Instance
+  commentId: F:LuaMod.LuaAPI.API_SLZ_NPC.Instance
+  fullName: LuaMod.LuaAPI.API_SLZ_NPC.Instance
+  nameWithType: API_SLZ_NPC.Instance
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic
+  name: API_SLZ_VoidLogic
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html
+  commentId: T:LuaMod.LuaAPI.API_SLZ_VoidLogic
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic
+  nameWithType: API_SLZ_VoidLogic
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(Il2CppSLZ.Marrow.MarrowEntityPoseDecorator,System.String)
+  name: BL_SetMarrowEntityPoseDectoratorPose(MarrowEntityPoseDecorator, string)
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html#LuaMod_LuaAPI_API_SLZ_VoidLogic_BL_SetMarrowEntityPoseDectoratorPose_Il2CppSLZ_Marrow_MarrowEntityPoseDecorator_System_String_
+  commentId: M:LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(Il2CppSLZ.Marrow.MarrowEntityPoseDecorator,System.String)
+  name.vb: BL_SetMarrowEntityPoseDectoratorPose(MarrowEntityPoseDecorator, String)
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(Il2CppSLZ.Marrow.MarrowEntityPoseDecorator, string)
+  fullName.vb: LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(Il2CppSLZ.Marrow.MarrowEntityPoseDecorator, String)
+  nameWithType: API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(MarrowEntityPoseDecorator, string)
+  nameWithType.vb: API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose(MarrowEntityPoseDecorator, String)
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose*
+  name: BL_SetMarrowEntityPoseDectoratorPose
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html#LuaMod_LuaAPI_API_SLZ_VoidLogic_BL_SetMarrowEntityPoseDectoratorPose_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose
+  nameWithType: API_SLZ_VoidLogic.BL_SetMarrowEntityPoseDectoratorPose
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager
+  name: GetVoidLogicManager()
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html#LuaMod_LuaAPI_API_SLZ_VoidLogic_GetVoidLogicManager
+  commentId: M:LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager()
+  nameWithType: API_SLZ_VoidLogic.GetVoidLogicManager()
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager*
+  name: GetVoidLogicManager
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html#LuaMod_LuaAPI_API_SLZ_VoidLogic_GetVoidLogicManager_
+  commentId: Overload:LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic.GetVoidLogicManager
+  nameWithType: API_SLZ_VoidLogic.GetVoidLogicManager
+- uid: LuaMod.LuaAPI.API_SLZ_VoidLogic.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_SLZ_VoidLogic.html#LuaMod_LuaAPI_API_SLZ_VoidLogic_Instance
+  commentId: F:LuaMod.LuaAPI.API_SLZ_VoidLogic.Instance
+  fullName: LuaMod.LuaAPI.API_SLZ_VoidLogic.Instance
+  nameWithType: API_SLZ_VoidLogic.Instance
+- uid: LuaMod.LuaAPI.API_Utils
+  name: API_Utils
+  href: api/LuaMod.LuaAPI.API_Utils.html
+  commentId: T:LuaMod.LuaAPI.API_Utils
+  fullName: LuaMod.LuaAPI.API_Utils
+  nameWithType: API_Utils
+- uid: LuaMod.LuaAPI.API_Utils.BL_CollectionLength(System.Collections.ICollection)
+  name: BL_CollectionLength(ICollection)
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_CollectionLength_System_Collections_ICollection_
+  commentId: M:LuaMod.LuaAPI.API_Utils.BL_CollectionLength(System.Collections.ICollection)
+  fullName: LuaMod.LuaAPI.API_Utils.BL_CollectionLength(System.Collections.ICollection)
+  nameWithType: API_Utils.BL_CollectionLength(ICollection)
+- uid: LuaMod.LuaAPI.API_Utils.BL_CollectionLength*
+  name: BL_CollectionLength
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_CollectionLength_
+  commentId: Overload:LuaMod.LuaAPI.API_Utils.BL_CollectionLength
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Utils.BL_CollectionLength
+  nameWithType: API_Utils.BL_CollectionLength
+- uid: LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType(UnityEngine.Object,System.String)
+  name: BL_ConvertObjectToType(Object, string)
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_ConvertObjectToType_UnityEngine_Object_System_String_
+  commentId: M:LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType(UnityEngine.Object,System.String)
+  name.vb: BL_ConvertObjectToType(Object, String)
+  fullName: LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType(UnityEngine.Object, string)
+  fullName.vb: LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType(UnityEngine.Object, String)
+  nameWithType: API_Utils.BL_ConvertObjectToType(Object, string)
+  nameWithType.vb: API_Utils.BL_ConvertObjectToType(Object, String)
+- uid: LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType*
+  name: BL_ConvertObjectToType
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_ConvertObjectToType_
+  commentId: Overload:LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType
+  nameWithType: API_Utils.BL_ConvertObjectToType
+- uid: LuaMod.LuaAPI.API_Utils.BL_GetBarcode(UnityEngine.GameObject)
+  name: BL_GetBarcode(GameObject)
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_GetBarcode_UnityEngine_GameObject_
+  commentId: M:LuaMod.LuaAPI.API_Utils.BL_GetBarcode(UnityEngine.GameObject)
+  fullName: LuaMod.LuaAPI.API_Utils.BL_GetBarcode(UnityEngine.GameObject)
+  nameWithType: API_Utils.BL_GetBarcode(GameObject)
+- uid: LuaMod.LuaAPI.API_Utils.BL_GetBarcode*
+  name: BL_GetBarcode
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_GetBarcode_
+  commentId: Overload:LuaMod.LuaAPI.API_Utils.BL_GetBarcode
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Utils.BL_GetBarcode
+  nameWithType: API_Utils.BL_GetBarcode
+- uid: LuaMod.LuaAPI.API_Utils.BL_GetSceneName
+  name: BL_GetSceneName()
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_GetSceneName
+  commentId: M:LuaMod.LuaAPI.API_Utils.BL_GetSceneName
+  fullName: LuaMod.LuaAPI.API_Utils.BL_GetSceneName()
+  nameWithType: API_Utils.BL_GetSceneName()
+- uid: LuaMod.LuaAPI.API_Utils.BL_GetSceneName*
+  name: BL_GetSceneName
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_BL_GetSceneName_
+  commentId: Overload:LuaMod.LuaAPI.API_Utils.BL_GetSceneName
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Utils.BL_GetSceneName
+  nameWithType: API_Utils.BL_GetSceneName
+- uid: LuaMod.LuaAPI.API_Utils.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Utils.html#LuaMod_LuaAPI_API_Utils_Instance
+  commentId: F:LuaMod.LuaAPI.API_Utils.Instance
+  fullName: LuaMod.LuaAPI.API_Utils.Instance
+  nameWithType: API_Utils.Instance
+- uid: LuaMod.LuaAPI.API_Vector
+  name: API_Vector
+  href: api/LuaMod.LuaAPI.API_Vector.html
+  commentId: T:LuaMod.LuaAPI.API_Vector
+  fullName: LuaMod.LuaAPI.API_Vector
+  nameWithType: API_Vector
+- uid: LuaMod.LuaAPI.API_Vector.BL_Vector3(System.Single,System.Single,System.Single)
+  name: BL_Vector3(float, float, float)
+  href: api/LuaMod.LuaAPI.API_Vector.html#LuaMod_LuaAPI_API_Vector_BL_Vector3_System_Single_System_Single_System_Single_
+  commentId: M:LuaMod.LuaAPI.API_Vector.BL_Vector3(System.Single,System.Single,System.Single)
+  name.vb: BL_Vector3(Single, Single, Single)
+  fullName: LuaMod.LuaAPI.API_Vector.BL_Vector3(float, float, float)
+  fullName.vb: LuaMod.LuaAPI.API_Vector.BL_Vector3(Single, Single, Single)
+  nameWithType: API_Vector.BL_Vector3(float, float, float)
+  nameWithType.vb: API_Vector.BL_Vector3(Single, Single, Single)
+- uid: LuaMod.LuaAPI.API_Vector.BL_Vector3*
+  name: BL_Vector3
+  href: api/LuaMod.LuaAPI.API_Vector.html#LuaMod_LuaAPI_API_Vector_BL_Vector3_
+  commentId: Overload:LuaMod.LuaAPI.API_Vector.BL_Vector3
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.API_Vector.BL_Vector3
+  nameWithType: API_Vector.BL_Vector3
+- uid: LuaMod.LuaAPI.API_Vector.Instance
+  name: Instance
+  href: api/LuaMod.LuaAPI.API_Vector.html#LuaMod_LuaAPI_API_Vector_Instance
+  commentId: F:LuaMod.LuaAPI.API_Vector.Instance
+  fullName: LuaMod.LuaAPI.API_Vector.Instance
+  nameWithType: API_Vector.Instance
+- uid: LuaMod.LuaAPI.BLFileAccess
+  name: BLFileAccess
+  href: api/LuaMod.LuaAPI.BLFileAccess.html
+  commentId: T:LuaMod.LuaAPI.BLFileAccess
+  fullName: LuaMod.LuaAPI.BLFileAccess
+  nameWithType: BLFileAccess
+- uid: LuaMod.LuaAPI.BLFileAccess.#ctor(System.String)
+  name: BLFileAccess(string)
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess__ctor_System_String_
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.#ctor(System.String)
+  name.vb: New(String)
+  fullName: LuaMod.LuaAPI.BLFileAccess.BLFileAccess(string)
+  fullName.vb: LuaMod.LuaAPI.BLFileAccess.New(String)
+  nameWithType: BLFileAccess.BLFileAccess(string)
+  nameWithType.vb: BLFileAccess.New(String)
+- uid: LuaMod.LuaAPI.BLFileAccess.#ctor*
+  name: BLFileAccess
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess__ctor_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LuaMod.LuaAPI.BLFileAccess.BLFileAccess
+  fullName.vb: LuaMod.LuaAPI.BLFileAccess.New
+  nameWithType: BLFileAccess.BLFileAccess
+  nameWithType.vb: BLFileAccess.New
+- uid: LuaMod.LuaAPI.BLFileAccess.Close
+  name: Close()
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_Close
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.Close
+  fullName: LuaMod.LuaAPI.BLFileAccess.Close()
+  nameWithType: BLFileAccess.Close()
+- uid: LuaMod.LuaAPI.BLFileAccess.Close*
+  name: Close
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_Close_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.Close
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.Close
+  nameWithType: BLFileAccess.Close
+- uid: LuaMod.LuaAPI.BLFileAccess.LineNumber
+  name: LineNumber
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_LineNumber
+  commentId: P:LuaMod.LuaAPI.BLFileAccess.LineNumber
+  fullName: LuaMod.LuaAPI.BLFileAccess.LineNumber
+  nameWithType: BLFileAccess.LineNumber
+- uid: LuaMod.LuaAPI.BLFileAccess.LineNumber*
+  name: LineNumber
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_LineNumber_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.LineNumber
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.LineNumber
+  nameWithType: BLFileAccess.LineNumber
+- uid: LuaMod.LuaAPI.BLFileAccess.ReadLine
+  name: ReadLine()
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_ReadLine
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.ReadLine
+  fullName: LuaMod.LuaAPI.BLFileAccess.ReadLine()
+  nameWithType: BLFileAccess.ReadLine()
+- uid: LuaMod.LuaAPI.BLFileAccess.ReadLine*
+  name: ReadLine
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_ReadLine_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.ReadLine
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.ReadLine
+  nameWithType: BLFileAccess.ReadLine
+- uid: LuaMod.LuaAPI.BLFileAccess.ReadToEnd
+  name: ReadToEnd()
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_ReadToEnd
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.ReadToEnd
+  fullName: LuaMod.LuaAPI.BLFileAccess.ReadToEnd()
+  nameWithType: BLFileAccess.ReadToEnd()
+- uid: LuaMod.LuaAPI.BLFileAccess.ReadToEnd*
+  name: ReadToEnd
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_ReadToEnd_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.ReadToEnd
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.ReadToEnd
+  nameWithType: BLFileAccess.ReadToEnd
+- uid: LuaMod.LuaAPI.BLFileAccess.Write(System.String,System.Boolean)
+  name: Write(string, bool)
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_Write_System_String_System_Boolean_
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.Write(System.String,System.Boolean)
+  name.vb: Write(String, Boolean)
+  fullName: LuaMod.LuaAPI.BLFileAccess.Write(string, bool)
+  fullName.vb: LuaMod.LuaAPI.BLFileAccess.Write(String, Boolean)
+  nameWithType: BLFileAccess.Write(string, bool)
+  nameWithType.vb: BLFileAccess.Write(String, Boolean)
+- uid: LuaMod.LuaAPI.BLFileAccess.Write*
+  name: Write
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_Write_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.Write
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.Write
+  nameWithType: BLFileAccess.Write
+- uid: LuaMod.LuaAPI.BLFileAccess.WriteLine(System.String,System.Boolean)
+  name: WriteLine(string, bool)
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_WriteLine_System_String_System_Boolean_
+  commentId: M:LuaMod.LuaAPI.BLFileAccess.WriteLine(System.String,System.Boolean)
+  name.vb: WriteLine(String, Boolean)
+  fullName: LuaMod.LuaAPI.BLFileAccess.WriteLine(string, bool)
+  fullName.vb: LuaMod.LuaAPI.BLFileAccess.WriteLine(String, Boolean)
+  nameWithType: BLFileAccess.WriteLine(string, bool)
+  nameWithType.vb: BLFileAccess.WriteLine(String, Boolean)
+- uid: LuaMod.LuaAPI.BLFileAccess.WriteLine*
+  name: WriteLine
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_WriteLine_
+  commentId: Overload:LuaMod.LuaAPI.BLFileAccess.WriteLine
+  isSpec: "True"
+  fullName: LuaMod.LuaAPI.BLFileAccess.WriteLine
+  nameWithType: BLFileAccess.WriteLine
+- uid: LuaMod.LuaAPI.BLFileAccess.currentLineNumber
+  name: currentLineNumber
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_currentLineNumber
+  commentId: F:LuaMod.LuaAPI.BLFileAccess.currentLineNumber
+  fullName: LuaMod.LuaAPI.BLFileAccess.currentLineNumber
+  nameWithType: BLFileAccess.currentLineNumber
+- uid: LuaMod.LuaAPI.BLFileAccess.relativeFileName
+  name: relativeFileName
+  href: api/LuaMod.LuaAPI.BLFileAccess.html#LuaMod_LuaAPI_BLFileAccess_relativeFileName
+  commentId: F:LuaMod.LuaAPI.BLFileAccess.relativeFileName
+  fullName: LuaMod.LuaAPI.BLFileAccess.relativeFileName
+  nameWithType: BLFileAccess.relativeFileName
+- uid: LuaMod.LuaAPI.EventListner
+  name: EventListner
+  href: api/LuaMod.LuaAPI.EventListner.html
+  commentId: T:LuaMod.LuaAPI.EventListner
+  fullName: LuaMod.LuaAPI.EventListner
+  nameWithType: EventListner
+- uid: LuaMod.LuaAPI.EventListner.function
+  name: function
+  href: api/LuaMod.LuaAPI.EventListner.html#LuaMod_LuaAPI_EventListner_function
+  commentId: F:LuaMod.LuaAPI.EventListner.function
+  fullName: LuaMod.LuaAPI.EventListner.function
+  nameWithType: EventListner.function
+- uid: LuaMod.LuaAPI.EventListner.owner
+  name: owner
+  href: api/LuaMod.LuaAPI.EventListner.html#LuaMod_LuaAPI_EventListner_owner
+  commentId: F:LuaMod.LuaAPI.EventListner.owner
+  fullName: LuaMod.LuaAPI.EventListner.owner
+  nameWithType: EventListner.owner
+- uid: LuaMod.LuaBehaviour
+  name: LuaBehaviour
+  href: api/LuaMod.LuaBehaviour.html
+  commentId: T:LuaMod.LuaBehaviour
+  fullName: LuaMod.LuaBehaviour
+  nameWithType: LuaBehaviour
+- uid: LuaMod.LuaBehaviour.AwakeFunction
+  name: AwakeFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_AwakeFunction
+  commentId: F:LuaMod.LuaBehaviour.AwakeFunction
+  fullName: LuaMod.LuaBehaviour.AwakeFunction
+  nameWithType: LuaBehaviour.AwakeFunction
+- uid: LuaMod.LuaBehaviour.BehaviourScript
+  name: BehaviourScript
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_BehaviourScript
+  commentId: F:LuaMod.LuaBehaviour.BehaviourScript
+  fullName: LuaMod.LuaBehaviour.BehaviourScript
+  nameWithType: LuaBehaviour.BehaviourScript
+- uid: LuaMod.LuaBehaviour.CallFunction(System.String,MoonSharp.Interpreter.DynValue[])
+  name: CallFunction(string, params DynValue[])
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunction_System_String_MoonSharp_Interpreter_DynValue___
+  commentId: M:LuaMod.LuaBehaviour.CallFunction(System.String,MoonSharp.Interpreter.DynValue[])
+  name.vb: CallFunction(String, ParamArray DynValue())
+  fullName: LuaMod.LuaBehaviour.CallFunction(string, params MoonSharp.Interpreter.DynValue[])
+  fullName.vb: LuaMod.LuaBehaviour.CallFunction(String, ParamArray MoonSharp.Interpreter.DynValue())
+  nameWithType: LuaBehaviour.CallFunction(string, params DynValue[])
+  nameWithType.vb: LuaBehaviour.CallFunction(String, ParamArray DynValue())
+- uid: LuaMod.LuaBehaviour.CallFunction*
+  name: CallFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunction_
+  commentId: Overload:LuaMod.LuaBehaviour.CallFunction
+  isSpec: "True"
+  fullName: LuaMod.LuaBehaviour.CallFunction
+  nameWithType: LuaBehaviour.CallFunction
+- uid: LuaMod.LuaBehaviour.CallFunctionULEvent(System.String,System.Int32,System.Single,System.String,UnityEngine.Object)
+  name: CallFunctionULEvent(string, int, float, string, Object)
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunctionULEvent_System_String_System_Int32_System_Single_System_String_UnityEngine_Object_
+  commentId: M:LuaMod.LuaBehaviour.CallFunctionULEvent(System.String,System.Int32,System.Single,System.String,UnityEngine.Object)
+  name.vb: CallFunctionULEvent(String, Integer, Single, String, Object)
+  fullName: LuaMod.LuaBehaviour.CallFunctionULEvent(string, int, float, string, UnityEngine.Object)
+  fullName.vb: LuaMod.LuaBehaviour.CallFunctionULEvent(String, Integer, Single, String, UnityEngine.Object)
+  nameWithType: LuaBehaviour.CallFunctionULEvent(string, int, float, string, Object)
+  nameWithType.vb: LuaBehaviour.CallFunctionULEvent(String, Integer, Single, String, Object)
+- uid: LuaMod.LuaBehaviour.CallFunctionULEvent*
+  name: CallFunctionULEvent
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunctionULEvent_
+  commentId: Overload:LuaMod.LuaBehaviour.CallFunctionULEvent
+  isSpec: "True"
+  fullName: LuaMod.LuaBehaviour.CallFunctionULEvent
+  nameWithType: LuaBehaviour.CallFunctionULEvent
+- uid: LuaMod.LuaBehaviour.FixedUpdateFunction
+  name: FixedUpdateFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_FixedUpdateFunction
+  commentId: F:LuaMod.LuaBehaviour.FixedUpdateFunction
+  fullName: LuaMod.LuaBehaviour.FixedUpdateFunction
+  nameWithType: LuaBehaviour.FixedUpdateFunction
+- uid: LuaMod.LuaBehaviour.GetScriptVariable(System.String)
+  name: GetScriptVariable(string)
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_GetScriptVariable_System_String_
+  commentId: M:LuaMod.LuaBehaviour.GetScriptVariable(System.String)
+  name.vb: GetScriptVariable(String)
+  fullName: LuaMod.LuaBehaviour.GetScriptVariable(string)
+  fullName.vb: LuaMod.LuaBehaviour.GetScriptVariable(String)
+  nameWithType: LuaBehaviour.GetScriptVariable(string)
+  nameWithType.vb: LuaBehaviour.GetScriptVariable(String)
+- uid: LuaMod.LuaBehaviour.GetScriptVariable*
+  name: GetScriptVariable
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_GetScriptVariable_
+  commentId: Overload:LuaMod.LuaBehaviour.GetScriptVariable
+  isSpec: "True"
+  fullName: LuaMod.LuaBehaviour.GetScriptVariable
+  nameWithType: LuaBehaviour.GetScriptVariable
+- uid: LuaMod.LuaBehaviour.LateStartFunction
+  name: LateStartFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_LateStartFunction
+  commentId: F:LuaMod.LuaBehaviour.LateStartFunction
+  fullName: LuaMod.LuaBehaviour.LateStartFunction
+  nameWithType: LuaBehaviour.LateStartFunction
+- uid: LuaMod.LuaBehaviour.LateUpdateFunction
+  name: LateUpdateFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_LateUpdateFunction
+  commentId: F:LuaMod.LuaBehaviour.LateUpdateFunction
+  fullName: LuaMod.LuaBehaviour.LateUpdateFunction
+  nameWithType: LuaBehaviour.LateUpdateFunction
+- uid: LuaMod.LuaBehaviour.OnBecameInvisibleFunction
+  name: OnBecameInvisibleFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnBecameInvisibleFunction
+  commentId: F:LuaMod.LuaBehaviour.OnBecameInvisibleFunction
+  fullName: LuaMod.LuaBehaviour.OnBecameInvisibleFunction
+  nameWithType: LuaBehaviour.OnBecameInvisibleFunction
+- uid: LuaMod.LuaBehaviour.OnBecameVisibleFunction
+  name: OnBecameVisibleFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnBecameVisibleFunction
+  commentId: F:LuaMod.LuaBehaviour.OnBecameVisibleFunction
+  fullName: LuaMod.LuaBehaviour.OnBecameVisibleFunction
+  nameWithType: LuaBehaviour.OnBecameVisibleFunction
+- uid: LuaMod.LuaBehaviour.OnCollisionEnterFunction
+  name: OnCollisionEnterFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionEnterFunction
+  commentId: F:LuaMod.LuaBehaviour.OnCollisionEnterFunction
+  fullName: LuaMod.LuaBehaviour.OnCollisionEnterFunction
+  nameWithType: LuaBehaviour.OnCollisionEnterFunction
+- uid: LuaMod.LuaBehaviour.OnCollisionExitFunction
+  name: OnCollisionExitFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionExitFunction
+  commentId: F:LuaMod.LuaBehaviour.OnCollisionExitFunction
+  fullName: LuaMod.LuaBehaviour.OnCollisionExitFunction
+  nameWithType: LuaBehaviour.OnCollisionExitFunction
+- uid: LuaMod.LuaBehaviour.OnCollisionStayFunction
+  name: OnCollisionStayFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionStayFunction
+  commentId: F:LuaMod.LuaBehaviour.OnCollisionStayFunction
+  fullName: LuaMod.LuaBehaviour.OnCollisionStayFunction
+  nameWithType: LuaBehaviour.OnCollisionStayFunction
+- uid: LuaMod.LuaBehaviour.OnDestroyFunction
+  name: OnDestroyFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnDestroyFunction
+  commentId: F:LuaMod.LuaBehaviour.OnDestroyFunction
+  fullName: LuaMod.LuaBehaviour.OnDestroyFunction
+  nameWithType: LuaBehaviour.OnDestroyFunction
+- uid: LuaMod.LuaBehaviour.OnDisableFunction
+  name: OnDisableFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnDisableFunction
+  commentId: F:LuaMod.LuaBehaviour.OnDisableFunction
+  fullName: LuaMod.LuaBehaviour.OnDisableFunction
+  nameWithType: LuaBehaviour.OnDisableFunction
+- uid: LuaMod.LuaBehaviour.OnEnableFunction
+  name: OnEnableFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnEnableFunction
+  commentId: F:LuaMod.LuaBehaviour.OnEnableFunction
+  fullName: LuaMod.LuaBehaviour.OnEnableFunction
+  nameWithType: LuaBehaviour.OnEnableFunction
+- uid: LuaMod.LuaBehaviour.OnJointBreakFunction
+  name: OnJointBreakFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnJointBreakFunction
+  commentId: F:LuaMod.LuaBehaviour.OnJointBreakFunction
+  fullName: LuaMod.LuaBehaviour.OnJointBreakFunction
+  nameWithType: LuaBehaviour.OnJointBreakFunction
+- uid: LuaMod.LuaBehaviour.OnParticleCollisionFunction
+  name: OnParticleCollisionFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleCollisionFunction
+  commentId: F:LuaMod.LuaBehaviour.OnParticleCollisionFunction
+  fullName: LuaMod.LuaBehaviour.OnParticleCollisionFunction
+  nameWithType: LuaBehaviour.OnParticleCollisionFunction
+- uid: LuaMod.LuaBehaviour.OnParticleSystemStoppedFunction
+  name: OnParticleSystemStoppedFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleSystemStoppedFunction
+  commentId: F:LuaMod.LuaBehaviour.OnParticleSystemStoppedFunction
+  fullName: LuaMod.LuaBehaviour.OnParticleSystemStoppedFunction
+  nameWithType: LuaBehaviour.OnParticleSystemStoppedFunction
+- uid: LuaMod.LuaBehaviour.OnParticleTriggerFunction
+  name: OnParticleTriggerFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleTriggerFunction
+  commentId: F:LuaMod.LuaBehaviour.OnParticleTriggerFunction
+  fullName: LuaMod.LuaBehaviour.OnParticleTriggerFunction
+  nameWithType: LuaBehaviour.OnParticleTriggerFunction
+- uid: LuaMod.LuaBehaviour.OnParticleUpdateJobScheduledFunction
+  name: OnParticleUpdateJobScheduledFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleUpdateJobScheduledFunction
+  commentId: F:LuaMod.LuaBehaviour.OnParticleUpdateJobScheduledFunction
+  fullName: LuaMod.LuaBehaviour.OnParticleUpdateJobScheduledFunction
+  nameWithType: LuaBehaviour.OnParticleUpdateJobScheduledFunction
+- uid: LuaMod.LuaBehaviour.OnTransformChildrenChangedFunction
+  name: OnTransformChildrenChangedFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTransformChildrenChangedFunction
+  commentId: F:LuaMod.LuaBehaviour.OnTransformChildrenChangedFunction
+  fullName: LuaMod.LuaBehaviour.OnTransformChildrenChangedFunction
+  nameWithType: LuaBehaviour.OnTransformChildrenChangedFunction
+- uid: LuaMod.LuaBehaviour.OnTransformParentChangedFunction
+  name: OnTransformParentChangedFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTransformParentChangedFunction
+  commentId: F:LuaMod.LuaBehaviour.OnTransformParentChangedFunction
+  fullName: LuaMod.LuaBehaviour.OnTransformParentChangedFunction
+  nameWithType: LuaBehaviour.OnTransformParentChangedFunction
+- uid: LuaMod.LuaBehaviour.OnTriggerEnterFunction
+  name: OnTriggerEnterFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerEnterFunction
+  commentId: F:LuaMod.LuaBehaviour.OnTriggerEnterFunction
+  fullName: LuaMod.LuaBehaviour.OnTriggerEnterFunction
+  nameWithType: LuaBehaviour.OnTriggerEnterFunction
+- uid: LuaMod.LuaBehaviour.OnTriggerExitFunction
+  name: OnTriggerExitFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerExitFunction
+  commentId: F:LuaMod.LuaBehaviour.OnTriggerExitFunction
+  fullName: LuaMod.LuaBehaviour.OnTriggerExitFunction
+  nameWithType: LuaBehaviour.OnTriggerExitFunction
+- uid: LuaMod.LuaBehaviour.OnTriggerStayFunction
+  name: OnTriggerStayFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerStayFunction
+  commentId: F:LuaMod.LuaBehaviour.OnTriggerStayFunction
+  fullName: LuaMod.LuaBehaviour.OnTriggerStayFunction
+  nameWithType: LuaBehaviour.OnTriggerStayFunction
+- uid: LuaMod.LuaBehaviour.Ready
+  name: Ready
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_Ready
+  commentId: F:LuaMod.LuaBehaviour.Ready
+  fullName: LuaMod.LuaBehaviour.Ready
+  nameWithType: LuaBehaviour.Ready
+- uid: LuaMod.LuaBehaviour.ScriptAsset
+  name: ScriptAsset
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptAsset
+  commentId: F:LuaMod.LuaBehaviour.ScriptAsset
+  fullName: LuaMod.LuaBehaviour.ScriptAsset
+  nameWithType: LuaBehaviour.ScriptAsset
+- uid: LuaMod.LuaBehaviour.ScriptName
+  name: ScriptName
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptName
+  commentId: F:LuaMod.LuaBehaviour.ScriptName
+  fullName: LuaMod.LuaBehaviour.ScriptName
+  nameWithType: LuaBehaviour.ScriptName
+- uid: LuaMod.LuaBehaviour.ScriptTags
+  name: ScriptTags
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptTags
+  commentId: F:LuaMod.LuaBehaviour.ScriptTags
+  fullName: LuaMod.LuaBehaviour.ScriptTags
+  nameWithType: LuaBehaviour.ScriptTags
+- uid: LuaMod.LuaBehaviour.SetScriptVariable(System.String,MoonSharp.Interpreter.DynValue)
+  name: SetScriptVariable(string, DynValue)
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SetScriptVariable_System_String_MoonSharp_Interpreter_DynValue_
+  commentId: M:LuaMod.LuaBehaviour.SetScriptVariable(System.String,MoonSharp.Interpreter.DynValue)
+  name.vb: SetScriptVariable(String, DynValue)
+  fullName: LuaMod.LuaBehaviour.SetScriptVariable(string, MoonSharp.Interpreter.DynValue)
+  fullName.vb: LuaMod.LuaBehaviour.SetScriptVariable(String, MoonSharp.Interpreter.DynValue)
+  nameWithType: LuaBehaviour.SetScriptVariable(string, DynValue)
+  nameWithType.vb: LuaBehaviour.SetScriptVariable(String, DynValue)
+- uid: LuaMod.LuaBehaviour.SetScriptVariable*
+  name: SetScriptVariable
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SetScriptVariable_
+  commentId: Overload:LuaMod.LuaBehaviour.SetScriptVariable
+  isSpec: "True"
+  fullName: LuaMod.LuaBehaviour.SetScriptVariable
+  nameWithType: LuaBehaviour.SetScriptVariable
+- uid: LuaMod.LuaBehaviour.SlowUpdateFunction
+  name: SlowUpdateFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SlowUpdateFunction
+  commentId: F:LuaMod.LuaBehaviour.SlowUpdateFunction
+  fullName: LuaMod.LuaBehaviour.SlowUpdateFunction
+  nameWithType: LuaBehaviour.SlowUpdateFunction
+- uid: LuaMod.LuaBehaviour.SlowUpdateTime
+  name: SlowUpdateTime
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SlowUpdateTime
+  commentId: F:LuaMod.LuaBehaviour.SlowUpdateTime
+  fullName: LuaMod.LuaBehaviour.SlowUpdateTime
+  nameWithType: LuaBehaviour.SlowUpdateTime
+- uid: LuaMod.LuaBehaviour.StartFunction
+  name: StartFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_StartFunction
+  commentId: F:LuaMod.LuaBehaviour.StartFunction
+  fullName: LuaMod.LuaBehaviour.StartFunction
+  nameWithType: LuaBehaviour.StartFunction
+- uid: LuaMod.LuaBehaviour.UpdateFunction
+  name: UpdateFunction
+  href: api/LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_UpdateFunction
+  commentId: F:LuaMod.LuaBehaviour.UpdateFunction
+  fullName: LuaMod.LuaBehaviour.UpdateFunction
+  nameWithType: LuaBehaviour.UpdateFunction
+- uid: LuaMod.LuaGun
+  name: LuaGun
+  href: api/LuaMod.LuaGun.html
+  commentId: T:LuaMod.LuaGun
+  fullName: LuaMod.LuaGun
+  nameWithType: LuaGun
+- uid: LuaMod.LuaGun.#ctor(System.IntPtr)
+  name: LuaGun(IntPtr)
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun__ctor_System_IntPtr_
+  commentId: M:LuaMod.LuaGun.#ctor(System.IntPtr)
+  name.vb: New(IntPtr)
+  fullName: LuaMod.LuaGun.LuaGun(System.IntPtr)
+  fullName.vb: LuaMod.LuaGun.New(System.IntPtr)
+  nameWithType: LuaGun.LuaGun(IntPtr)
+  nameWithType.vb: LuaGun.New(IntPtr)
+- uid: LuaMod.LuaGun.#ctor*
+  name: LuaGun
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun__ctor_
+  commentId: Overload:LuaMod.LuaGun.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LuaMod.LuaGun.LuaGun
+  fullName.vb: LuaMod.LuaGun.New
+  nameWithType: LuaGun.LuaGun
+  nameWithType.vb: LuaGun.New
+- uid: LuaMod.LuaGun.AttachedGun
+  name: AttachedGun
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_AttachedGun
+  commentId: F:LuaMod.LuaGun.AttachedGun
+  fullName: LuaMod.LuaGun.AttachedGun
+  nameWithType: LuaGun.AttachedGun
+- uid: LuaMod.LuaGun.AttachedGunSlide
+  name: AttachedGunSlide
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_AttachedGunSlide
+  commentId: F:LuaMod.LuaGun.AttachedGunSlide
+  fullName: LuaMod.LuaGun.AttachedGunSlide
+  nameWithType: LuaGun.AttachedGunSlide
+- uid: LuaMod.LuaGun.ForceGunFire
+  name: ForceGunFire()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_ForceGunFire
+  commentId: M:LuaMod.LuaGun.ForceGunFire
+  fullName: LuaMod.LuaGun.ForceGunFire()
+  nameWithType: LuaGun.ForceGunFire()
+- uid: LuaMod.LuaGun.ForceGunFire*
+  name: ForceGunFire
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_ForceGunFire_
+  commentId: Overload:LuaMod.LuaGun.ForceGunFire
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.ForceGunFire
+  nameWithType: LuaGun.ForceGunFire
+- uid: LuaMod.LuaGun.GetFirepointPosition
+  name: GetFirepointPosition()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_GetFirepointPosition
+  commentId: M:LuaMod.LuaGun.GetFirepointPosition
+  fullName: LuaMod.LuaGun.GetFirepointPosition()
+  nameWithType: LuaGun.GetFirepointPosition()
+- uid: LuaMod.LuaGun.GetFirepointPosition*
+  name: GetFirepointPosition
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_GetFirepointPosition_
+  commentId: Overload:LuaMod.LuaGun.GetFirepointPosition
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.GetFirepointPosition
+  nameWithType: LuaGun.GetFirepointPosition
+- uid: LuaMod.LuaGun.GetMagazineRounds
+  name: GetMagazineRounds()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_GetMagazineRounds
+  commentId: M:LuaMod.LuaGun.GetMagazineRounds
+  fullName: LuaMod.LuaGun.GetMagazineRounds()
+  nameWithType: LuaGun.GetMagazineRounds()
+- uid: LuaMod.LuaGun.GetMagazineRounds*
+  name: GetMagazineRounds
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_GetMagazineRounds_
+  commentId: Overload:LuaMod.LuaGun.GetMagazineRounds
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.GetMagazineRounds
+  nameWithType: LuaGun.GetMagazineRounds
+- uid: LuaMod.LuaGun.LuaSpawnCartridge(Il2CppSLZ.Marrow.Data.Spawnable)
+  name: LuaSpawnCartridge(Spawnable)
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_LuaSpawnCartridge_Il2CppSLZ_Marrow_Data_Spawnable_
+  commentId: M:LuaMod.LuaGun.LuaSpawnCartridge(Il2CppSLZ.Marrow.Data.Spawnable)
+  fullName: LuaMod.LuaGun.LuaSpawnCartridge(Il2CppSLZ.Marrow.Data.Spawnable)
+  nameWithType: LuaGun.LuaSpawnCartridge(Spawnable)
+- uid: LuaMod.LuaGun.LuaSpawnCartridge*
+  name: LuaSpawnCartridge
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_LuaSpawnCartridge_
+  commentId: Overload:LuaMod.LuaGun.LuaSpawnCartridge
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.LuaSpawnCartridge
+  nameWithType: LuaGun.LuaSpawnCartridge
+- uid: LuaMod.LuaGun.LuaTriggerPulled
+  name: LuaTriggerPulled()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_LuaTriggerPulled
+  commentId: M:LuaMod.LuaGun.LuaTriggerPulled
+  fullName: LuaMod.LuaGun.LuaTriggerPulled()
+  nameWithType: LuaGun.LuaTriggerPulled()
+- uid: LuaMod.LuaGun.LuaTriggerPulled*
+  name: LuaTriggerPulled
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_LuaTriggerPulled_
+  commentId: Overload:LuaMod.LuaGun.LuaTriggerPulled
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.LuaTriggerPulled
+  nameWithType: LuaGun.LuaTriggerPulled
+- uid: LuaMod.LuaGun.OnFire
+  name: OnFire()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnFire
+  commentId: M:LuaMod.LuaGun.OnFire
+  fullName: LuaMod.LuaGun.OnFire()
+  nameWithType: LuaGun.OnFire()
+- uid: LuaMod.LuaGun.OnFire*
+  name: OnFire
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnFire_
+  commentId: Overload:LuaMod.LuaGun.OnFire
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnFire
+  nameWithType: LuaGun.OnFire
+- uid: LuaMod.LuaGun.OnGripAttached(Il2CppSLZ.Marrow.InteractableHost,Il2CppSLZ.Marrow.Hand)
+  name: OnGripAttached(InteractableHost, Hand)
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnGripAttached_Il2CppSLZ_Marrow_InteractableHost_Il2CppSLZ_Marrow_Hand_
+  commentId: M:LuaMod.LuaGun.OnGripAttached(Il2CppSLZ.Marrow.InteractableHost,Il2CppSLZ.Marrow.Hand)
+  fullName: LuaMod.LuaGun.OnGripAttached(Il2CppSLZ.Marrow.InteractableHost, Il2CppSLZ.Marrow.Hand)
+  nameWithType: LuaGun.OnGripAttached(InteractableHost, Hand)
+- uid: LuaMod.LuaGun.OnGripAttached*
+  name: OnGripAttached
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnGripAttached_
+  commentId: Overload:LuaMod.LuaGun.OnGripAttached
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnGripAttached
+  nameWithType: LuaGun.OnGripAttached
+- uid: LuaMod.LuaGun.OnMagizineEjected
+  name: OnMagizineEjected()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnMagizineEjected
+  commentId: M:LuaMod.LuaGun.OnMagizineEjected
+  fullName: LuaMod.LuaGun.OnMagizineEjected()
+  nameWithType: LuaGun.OnMagizineEjected()
+- uid: LuaMod.LuaGun.OnMagizineEjected*
+  name: OnMagizineEjected
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnMagizineEjected_
+  commentId: Overload:LuaMod.LuaGun.OnMagizineEjected
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnMagizineEjected
+  nameWithType: LuaGun.OnMagizineEjected
+- uid: LuaMod.LuaGun.OnSlideGrabbed
+  name: OnSlideGrabbed()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideGrabbed
+  commentId: M:LuaMod.LuaGun.OnSlideGrabbed
+  fullName: LuaMod.LuaGun.OnSlideGrabbed()
+  nameWithType: LuaGun.OnSlideGrabbed()
+- uid: LuaMod.LuaGun.OnSlideGrabbed*
+  name: OnSlideGrabbed
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideGrabbed_
+  commentId: Overload:LuaMod.LuaGun.OnSlideGrabbed
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnSlideGrabbed
+  nameWithType: LuaGun.OnSlideGrabbed
+- uid: LuaMod.LuaGun.OnSlideReleased
+  name: OnSlideReleased()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideReleased
+  commentId: M:LuaMod.LuaGun.OnSlideReleased
+  fullName: LuaMod.LuaGun.OnSlideReleased()
+  nameWithType: LuaGun.OnSlideReleased()
+- uid: LuaMod.LuaGun.OnSlideReleased*
+  name: OnSlideReleased
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideReleased_
+  commentId: Overload:LuaMod.LuaGun.OnSlideReleased
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnSlideReleased
+  nameWithType: LuaGun.OnSlideReleased
+- uid: LuaMod.LuaGun.OnSlideUpdate(System.Single)
+  name: OnSlideUpdate(float)
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideUpdate_System_Single_
+  commentId: M:LuaMod.LuaGun.OnSlideUpdate(System.Single)
+  name.vb: OnSlideUpdate(Single)
+  fullName: LuaMod.LuaGun.OnSlideUpdate(float)
+  fullName.vb: LuaMod.LuaGun.OnSlideUpdate(Single)
+  nameWithType: LuaGun.OnSlideUpdate(float)
+  nameWithType.vb: LuaGun.OnSlideUpdate(Single)
+- uid: LuaMod.LuaGun.OnSlideUpdate*
+  name: OnSlideUpdate
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_OnSlideUpdate_
+  commentId: Overload:LuaMod.LuaGun.OnSlideUpdate
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.OnSlideUpdate
+  nameWithType: LuaGun.OnSlideUpdate
+- uid: LuaMod.LuaGun.SetMagazineRounds(System.Int32)
+  name: SetMagazineRounds(int)
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_SetMagazineRounds_System_Int32_
+  commentId: M:LuaMod.LuaGun.SetMagazineRounds(System.Int32)
+  name.vb: SetMagazineRounds(Integer)
+  fullName: LuaMod.LuaGun.SetMagazineRounds(int)
+  fullName.vb: LuaMod.LuaGun.SetMagazineRounds(Integer)
+  nameWithType: LuaGun.SetMagazineRounds(int)
+  nameWithType.vb: LuaGun.SetMagazineRounds(Integer)
+- uid: LuaMod.LuaGun.SetMagazineRounds*
+  name: SetMagazineRounds
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_SetMagazineRounds_
+  commentId: Overload:LuaMod.LuaGun.SetMagazineRounds
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.SetMagazineRounds
+  nameWithType: LuaGun.SetMagazineRounds
+- uid: LuaMod.LuaGun.SetupBehaviourFunctions
+  name: SetupBehaviourFunctions()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_SetupBehaviourFunctions
+  commentId: M:LuaMod.LuaGun.SetupBehaviourFunctions
+  fullName: LuaMod.LuaGun.SetupBehaviourFunctions()
+  nameWithType: LuaGun.SetupBehaviourFunctions()
+- uid: LuaMod.LuaGun.SetupBehaviourFunctions*
+  name: SetupBehaviourFunctions
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_SetupBehaviourFunctions_
+  commentId: Overload:LuaMod.LuaGun.SetupBehaviourFunctions
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.SetupBehaviourFunctions
+  nameWithType: LuaGun.SetupBehaviourFunctions
+- uid: LuaMod.LuaGun.Start
+  name: Start()
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_Start
+  commentId: M:LuaMod.LuaGun.Start
+  fullName: LuaMod.LuaGun.Start()
+  nameWithType: LuaGun.Start()
+- uid: LuaMod.LuaGun.Start*
+  name: Start
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_Start_
+  commentId: Overload:LuaMod.LuaGun.Start
+  isSpec: "True"
+  fullName: LuaMod.LuaGun.Start
+  nameWithType: LuaGun.Start
+- uid: LuaMod.LuaGun.SupressBullet
+  name: SupressBullet
+  href: api/LuaMod.LuaGun.html#LuaMod_LuaGun_SupressBullet
+  commentId: F:LuaMod.LuaGun.SupressBullet
+  fullName: LuaMod.LuaGun.SupressBullet
+  nameWithType: LuaGun.SupressBullet
+- uid: LuaMod.LuaMod
+  name: LuaMod
+  href: api/LuaMod.LuaMod.html
+  commentId: T:LuaMod.LuaMod
+  fullName: LuaMod.LuaMod
+  nameWithType: LuaMod
+- uid: LuaMod.LuaModScript
+  name: LuaModScript
+  href: api/LuaMod.LuaModScript.html
+  commentId: T:LuaMod.LuaModScript
+  fullName: LuaMod.LuaModScript
+  nameWithType: LuaModScript
+- uid: LuaMod.LuaModScript.CallScriptFunction(MoonSharp.Interpreter.DynValue,System.Object[])
+  name: CallScriptFunction(DynValue, params object[])
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_CallScriptFunction_MoonSharp_Interpreter_DynValue_System_Object___
+  commentId: M:LuaMod.LuaModScript.CallScriptFunction(MoonSharp.Interpreter.DynValue,System.Object[])
+  name.vb: CallScriptFunction(DynValue, ParamArray Object())
+  fullName: LuaMod.LuaModScript.CallScriptFunction(MoonSharp.Interpreter.DynValue, params object[])
+  fullName.vb: LuaMod.LuaModScript.CallScriptFunction(MoonSharp.Interpreter.DynValue, ParamArray Object())
+  nameWithType: LuaModScript.CallScriptFunction(DynValue, params object[])
+  nameWithType.vb: LuaModScript.CallScriptFunction(DynValue, ParamArray Object())
+- uid: LuaMod.LuaModScript.CallScriptFunction*
+  name: CallScriptFunction
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_CallScriptFunction_
+  commentId: Overload:LuaMod.LuaModScript.CallScriptFunction
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.CallScriptFunction
+  nameWithType: LuaModScript.CallScriptFunction
+- uid: LuaMod.LuaModScript.DestroyScript
+  name: DestroyScript()
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_DestroyScript
+  commentId: M:LuaMod.LuaModScript.DestroyScript
+  fullName: LuaMod.LuaModScript.DestroyScript()
+  nameWithType: LuaModScript.DestroyScript()
+- uid: LuaMod.LuaModScript.DestroyScript*
+  name: DestroyScript
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_DestroyScript_
+  commentId: Overload:LuaMod.LuaModScript.DestroyScript
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.DestroyScript
+  nameWithType: LuaModScript.DestroyScript
+- uid: LuaMod.LuaModScript.GetGlobal(System.String)
+  name: GetGlobal(string)
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_GetGlobal_System_String_
+  commentId: M:LuaMod.LuaModScript.GetGlobal(System.String)
+  name.vb: GetGlobal(String)
+  fullName: LuaMod.LuaModScript.GetGlobal(string)
+  fullName.vb: LuaMod.LuaModScript.GetGlobal(String)
+  nameWithType: LuaModScript.GetGlobal(string)
+  nameWithType.vb: LuaModScript.GetGlobal(String)
+- uid: LuaMod.LuaModScript.GetGlobal*
+  name: GetGlobal
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_GetGlobal_
+  commentId: Overload:LuaMod.LuaModScript.GetGlobal
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.GetGlobal
+  nameWithType: LuaModScript.GetGlobal
+- uid: LuaMod.LuaModScript.IsScriptPathSafe(System.String)
+  name: IsScriptPathSafe(string)
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_IsScriptPathSafe_System_String_
+  commentId: M:LuaMod.LuaModScript.IsScriptPathSafe(System.String)
+  name.vb: IsScriptPathSafe(String)
+  fullName: LuaMod.LuaModScript.IsScriptPathSafe(string)
+  fullName.vb: LuaMod.LuaModScript.IsScriptPathSafe(String)
+  nameWithType: LuaModScript.IsScriptPathSafe(string)
+  nameWithType.vb: LuaModScript.IsScriptPathSafe(String)
+- uid: LuaMod.LuaModScript.IsScriptPathSafe*
+  name: IsScriptPathSafe
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_IsScriptPathSafe_
+  commentId: Overload:LuaMod.LuaModScript.IsScriptPathSafe
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.IsScriptPathSafe
+  nameWithType: LuaModScript.IsScriptPathSafe
+- uid: LuaMod.LuaModScript.LoadScript(System.String,System.Boolean)
+  name: LoadScript(string, bool)
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_LoadScript_System_String_System_Boolean_
+  commentId: M:LuaMod.LuaModScript.LoadScript(System.String,System.Boolean)
+  name.vb: LoadScript(String, Boolean)
+  fullName: LuaMod.LuaModScript.LoadScript(string, bool)
+  fullName.vb: LuaMod.LuaModScript.LoadScript(String, Boolean)
+  nameWithType: LuaModScript.LoadScript(string, bool)
+  nameWithType.vb: LuaModScript.LoadScript(String, Boolean)
+- uid: LuaMod.LuaModScript.LoadScript(UnityEngine.TextAsset,System.Boolean)
+  name: LoadScript(TextAsset, bool)
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_LoadScript_UnityEngine_TextAsset_System_Boolean_
+  commentId: M:LuaMod.LuaModScript.LoadScript(UnityEngine.TextAsset,System.Boolean)
+  name.vb: LoadScript(TextAsset, Boolean)
+  fullName: LuaMod.LuaModScript.LoadScript(UnityEngine.TextAsset, bool)
+  fullName.vb: LuaMod.LuaModScript.LoadScript(UnityEngine.TextAsset, Boolean)
+  nameWithType: LuaModScript.LoadScript(TextAsset, bool)
+  nameWithType.vb: LuaModScript.LoadScript(TextAsset, Boolean)
+- uid: LuaMod.LuaModScript.LoadScript*
+  name: LoadScript
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_LoadScript_
+  commentId: Overload:LuaMod.LuaModScript.LoadScript
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.LoadScript
+  nameWithType: LuaModScript.LoadScript
+- uid: LuaMod.LuaModScript.MaxScriptExecutionTime
+  name: MaxScriptExecutionTime
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_MaxScriptExecutionTime
+  commentId: F:LuaMod.LuaModScript.MaxScriptExecutionTime
+  fullName: LuaMod.LuaModScript.MaxScriptExecutionTime
+  nameWithType: LuaModScript.MaxScriptExecutionTime
+- uid: LuaMod.LuaModScript.PostReloadScript
+  name: PostReloadScript
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_PostReloadScript
+  commentId: F:LuaMod.LuaModScript.PostReloadScript
+  fullName: LuaMod.LuaModScript.PostReloadScript
+  nameWithType: LuaModScript.PostReloadScript
+- uid: LuaMod.LuaModScript.ReloadScript
+  name: ReloadScript()
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_ReloadScript
+  commentId: M:LuaMod.LuaModScript.ReloadScript
+  fullName: LuaMod.LuaModScript.ReloadScript()
+  nameWithType: LuaModScript.ReloadScript()
+- uid: LuaMod.LuaModScript.ReloadScript*
+  name: ReloadScript
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_ReloadScript_
+  commentId: Overload:LuaMod.LuaModScript.ReloadScript
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.ReloadScript
+  nameWithType: LuaModScript.ReloadScript
+- uid: LuaMod.LuaModScript.ScriptIsValid
+  name: ScriptIsValid()
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_ScriptIsValid
+  commentId: M:LuaMod.LuaModScript.ScriptIsValid
+  fullName: LuaMod.LuaModScript.ScriptIsValid()
+  nameWithType: LuaModScript.ScriptIsValid()
+- uid: LuaMod.LuaModScript.ScriptIsValid*
+  name: ScriptIsValid
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_ScriptIsValid_
+  commentId: Overload:LuaMod.LuaModScript.ScriptIsValid
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.ScriptIsValid
+  nameWithType: LuaModScript.ScriptIsValid
+- uid: LuaMod.LuaModScript.SetGlobal(System.String,System.Object)
+  name: SetGlobal(string, object)
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_SetGlobal_System_String_System_Object_
+  commentId: M:LuaMod.LuaModScript.SetGlobal(System.String,System.Object)
+  name.vb: SetGlobal(String, Object)
+  fullName: LuaMod.LuaModScript.SetGlobal(string, object)
+  fullName.vb: LuaMod.LuaModScript.SetGlobal(String, Object)
+  nameWithType: LuaModScript.SetGlobal(string, object)
+  nameWithType.vb: LuaModScript.SetGlobal(String, Object)
+- uid: LuaMod.LuaModScript.SetGlobal*
+  name: SetGlobal
+  href: api/LuaMod.LuaModScript.html#LuaMod_LuaModScript_SetGlobal_
+  commentId: Overload:LuaMod.LuaModScript.SetGlobal
+  isSpec: "True"
+  fullName: LuaMod.LuaModScript.SetGlobal
+  nameWithType: LuaModScript.SetGlobal
+- uid: LuaMod.LuaModScript.del_postreload
+  name: LuaModScript.del_postreload
+  href: api/LuaMod.LuaModScript.del_postreload.html
+  commentId: T:LuaMod.LuaModScript.del_postreload
+  fullName: LuaMod.LuaModScript.del_postreload
+  nameWithType: LuaModScript.del_postreload
+- uid: LuaMod.LuaResources
+  name: LuaResources
+  href: api/LuaMod.LuaResources.html
+  commentId: T:LuaMod.LuaResources
+  fullName: LuaMod.LuaResources
+  nameWithType: LuaResources
+- uid: LuaMod.LuaResources.Bools
+  name: Bools
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Bools
+  commentId: P:LuaMod.LuaResources.Bools
+  fullName: LuaMod.LuaResources.Bools
+  nameWithType: LuaResources.Bools
+- uid: LuaMod.LuaResources.Bools*
+  name: Bools
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Bools_
+  commentId: Overload:LuaMod.LuaResources.Bools
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.Bools
+  nameWithType: LuaResources.Bools
+- uid: LuaMod.LuaResources.Cast*
+  name: Cast
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Cast_
+  commentId: Overload:LuaMod.LuaResources.Cast
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.Cast
+  nameWithType: LuaResources.Cast
+- uid: LuaMod.LuaResources.Cast``1(UnityEngine.Object)
+  name: Cast<T>(Object)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Cast__1_UnityEngine_Object_
+  commentId: M:LuaMod.LuaResources.Cast``1(UnityEngine.Object)
+  name.vb: Cast(Of T)(Object)
+  fullName: LuaMod.LuaResources.Cast<T>(UnityEngine.Object)
+  fullName.vb: LuaMod.LuaResources.Cast(Of T)(UnityEngine.Object)
+  nameWithType: LuaResources.Cast<T>(Object)
+  nameWithType.vb: LuaResources.Cast(Of T)(Object)
+- uid: LuaMod.LuaResources.Floats
+  name: Floats
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Floats
+  commentId: P:LuaMod.LuaResources.Floats
+  fullName: LuaMod.LuaResources.Floats
+  nameWithType: LuaResources.Floats
+- uid: LuaMod.LuaResources.Floats*
+  name: Floats
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Floats_
+  commentId: Overload:LuaMod.LuaResources.Floats
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.Floats
+  nameWithType: LuaResources.Floats
+- uid: LuaMod.LuaResources.GetAllKeys
+  name: GetAllKeys()
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetAllKeys
+  commentId: M:LuaMod.LuaResources.GetAllKeys
+  fullName: LuaMod.LuaResources.GetAllKeys()
+  nameWithType: LuaResources.GetAllKeys()
+- uid: LuaMod.LuaResources.GetAllKeys*
+  name: GetAllKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetAllKeys_
+  commentId: Overload:LuaMod.LuaResources.GetAllKeys
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetAllKeys
+  nameWithType: LuaResources.GetAllKeys
+- uid: LuaMod.LuaResources.GetBool(System.String)
+  name: GetBool(string)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetBool_System_String_
+  commentId: M:LuaMod.LuaResources.GetBool(System.String)
+  name.vb: GetBool(String)
+  fullName: LuaMod.LuaResources.GetBool(string)
+  fullName.vb: LuaMod.LuaResources.GetBool(String)
+  nameWithType: LuaResources.GetBool(string)
+  nameWithType.vb: LuaResources.GetBool(String)
+- uid: LuaMod.LuaResources.GetBool*
+  name: GetBool
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetBool_
+  commentId: Overload:LuaMod.LuaResources.GetBool
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetBool
+  nameWithType: LuaResources.GetBool
+- uid: LuaMod.LuaResources.GetDuplicateKeys
+  name: GetDuplicateKeys()
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetDuplicateKeys
+  commentId: M:LuaMod.LuaResources.GetDuplicateKeys
+  fullName: LuaMod.LuaResources.GetDuplicateKeys()
+  nameWithType: LuaResources.GetDuplicateKeys()
+- uid: LuaMod.LuaResources.GetDuplicateKeys*
+  name: GetDuplicateKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetDuplicateKeys_
+  commentId: Overload:LuaMod.LuaResources.GetDuplicateKeys
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetDuplicateKeys
+  nameWithType: LuaResources.GetDuplicateKeys
+- uid: LuaMod.LuaResources.GetFloat(System.String)
+  name: GetFloat(string)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetFloat_System_String_
+  commentId: M:LuaMod.LuaResources.GetFloat(System.String)
+  name.vb: GetFloat(String)
+  fullName: LuaMod.LuaResources.GetFloat(string)
+  fullName.vb: LuaMod.LuaResources.GetFloat(String)
+  nameWithType: LuaResources.GetFloat(string)
+  nameWithType.vb: LuaResources.GetFloat(String)
+- uid: LuaMod.LuaResources.GetFloat*
+  name: GetFloat
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetFloat_
+  commentId: Overload:LuaMod.LuaResources.GetFloat
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetFloat
+  nameWithType: LuaResources.GetFloat
+- uid: LuaMod.LuaResources.GetObject(System.String,System.String)
+  name: GetObject(string, string)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetObject_System_String_System_String_
+  commentId: M:LuaMod.LuaResources.GetObject(System.String,System.String)
+  name.vb: GetObject(String, String)
+  fullName: LuaMod.LuaResources.GetObject(string, string)
+  fullName.vb: LuaMod.LuaResources.GetObject(String, String)
+  nameWithType: LuaResources.GetObject(string, string)
+  nameWithType.vb: LuaResources.GetObject(String, String)
+- uid: LuaMod.LuaResources.GetObject*
+  name: GetObject
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetObject_
+  commentId: Overload:LuaMod.LuaResources.GetObject
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetObject
+  nameWithType: LuaResources.GetObject
+- uid: LuaMod.LuaResources.GetString(System.String)
+  name: GetString(string)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetString_System_String_
+  commentId: M:LuaMod.LuaResources.GetString(System.String)
+  name.vb: GetString(String)
+  fullName: LuaMod.LuaResources.GetString(string)
+  fullName.vb: LuaMod.LuaResources.GetString(String)
+  nameWithType: LuaResources.GetString(string)
+  nameWithType.vb: LuaResources.GetString(String)
+- uid: LuaMod.LuaResources.GetString*
+  name: GetString
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_GetString_
+  commentId: Overload:LuaMod.LuaResources.GetString
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.GetString
+  nameWithType: LuaResources.GetString
+- uid: LuaMod.LuaResources.Objects
+  name: Objects
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Objects
+  commentId: P:LuaMod.LuaResources.Objects
+  fullName: LuaMod.LuaResources.Objects
+  nameWithType: LuaResources.Objects
+- uid: LuaMod.LuaResources.Objects*
+  name: Objects
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Objects_
+  commentId: Overload:LuaMod.LuaResources.Objects
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.Objects
+  nameWithType: LuaResources.Objects
+- uid: LuaMod.LuaResources.RebuildAll
+  name: RebuildAll()
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_RebuildAll
+  commentId: M:LuaMod.LuaResources.RebuildAll
+  fullName: LuaMod.LuaResources.RebuildAll()
+  nameWithType: LuaResources.RebuildAll()
+- uid: LuaMod.LuaResources.RebuildAll*
+  name: RebuildAll
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_RebuildAll_
+  commentId: Overload:LuaMod.LuaResources.RebuildAll
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.RebuildAll
+  nameWithType: LuaResources.RebuildAll
+- uid: LuaMod.LuaResources.SetBool(System.String,System.Boolean)
+  name: SetBool(string, bool)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetBool_System_String_System_Boolean_
+  commentId: M:LuaMod.LuaResources.SetBool(System.String,System.Boolean)
+  name.vb: SetBool(String, Boolean)
+  fullName: LuaMod.LuaResources.SetBool(string, bool)
+  fullName.vb: LuaMod.LuaResources.SetBool(String, Boolean)
+  nameWithType: LuaResources.SetBool(string, bool)
+  nameWithType.vb: LuaResources.SetBool(String, Boolean)
+- uid: LuaMod.LuaResources.SetBool*
+  name: SetBool
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetBool_
+  commentId: Overload:LuaMod.LuaResources.SetBool
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.SetBool
+  nameWithType: LuaResources.SetBool
+- uid: LuaMod.LuaResources.SetFloat(System.String,System.Single)
+  name: SetFloat(string, float)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetFloat_System_String_System_Single_
+  commentId: M:LuaMod.LuaResources.SetFloat(System.String,System.Single)
+  name.vb: SetFloat(String, Single)
+  fullName: LuaMod.LuaResources.SetFloat(string, float)
+  fullName.vb: LuaMod.LuaResources.SetFloat(String, Single)
+  nameWithType: LuaResources.SetFloat(string, float)
+  nameWithType.vb: LuaResources.SetFloat(String, Single)
+- uid: LuaMod.LuaResources.SetFloat*
+  name: SetFloat
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetFloat_
+  commentId: Overload:LuaMod.LuaResources.SetFloat
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.SetFloat
+  nameWithType: LuaResources.SetFloat
+- uid: LuaMod.LuaResources.SetObject(System.String,UnityEngine.Object)
+  name: SetObject(string, Object)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetObject_System_String_UnityEngine_Object_
+  commentId: M:LuaMod.LuaResources.SetObject(System.String,UnityEngine.Object)
+  name.vb: SetObject(String, Object)
+  fullName: LuaMod.LuaResources.SetObject(string, UnityEngine.Object)
+  fullName.vb: LuaMod.LuaResources.SetObject(String, UnityEngine.Object)
+  nameWithType: LuaResources.SetObject(string, Object)
+  nameWithType.vb: LuaResources.SetObject(String, Object)
+- uid: LuaMod.LuaResources.SetObject*
+  name: SetObject
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetObject_
+  commentId: Overload:LuaMod.LuaResources.SetObject
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.SetObject
+  nameWithType: LuaResources.SetObject
+- uid: LuaMod.LuaResources.SetString(System.String,System.String)
+  name: SetString(string, string)
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetString_System_String_System_String_
+  commentId: M:LuaMod.LuaResources.SetString(System.String,System.String)
+  name.vb: SetString(String, String)
+  fullName: LuaMod.LuaResources.SetString(string, string)
+  fullName.vb: LuaMod.LuaResources.SetString(String, String)
+  nameWithType: LuaResources.SetString(string, string)
+  nameWithType.vb: LuaResources.SetString(String, String)
+- uid: LuaMod.LuaResources.SetString*
+  name: SetString
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_SetString_
+  commentId: Overload:LuaMod.LuaResources.SetString
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.SetString
+  nameWithType: LuaResources.SetString
+- uid: LuaMod.LuaResources.Strings
+  name: Strings
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Strings
+  commentId: P:LuaMod.LuaResources.Strings
+  fullName: LuaMod.LuaResources.Strings
+  nameWithType: LuaResources.Strings
+- uid: LuaMod.LuaResources.Strings*
+  name: Strings
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_Strings_
+  commentId: Overload:LuaMod.LuaResources.Strings
+  isSpec: "True"
+  fullName: LuaMod.LuaResources.Strings
+  nameWithType: LuaResources.Strings
+- uid: LuaMod.LuaResources.boolKeys
+  name: boolKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_boolKeys
+  commentId: F:LuaMod.LuaResources.boolKeys
+  fullName: LuaMod.LuaResources.boolKeys
+  nameWithType: LuaResources.boolKeys
+- uid: LuaMod.LuaResources.boolValues
+  name: boolValues
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_boolValues
+  commentId: F:LuaMod.LuaResources.boolValues
+  fullName: LuaMod.LuaResources.boolValues
+  nameWithType: LuaResources.boolValues
+- uid: LuaMod.LuaResources.floatKeys
+  name: floatKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_floatKeys
+  commentId: F:LuaMod.LuaResources.floatKeys
+  fullName: LuaMod.LuaResources.floatKeys
+  nameWithType: LuaResources.floatKeys
+- uid: LuaMod.LuaResources.floatValues
+  name: floatValues
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_floatValues
+  commentId: F:LuaMod.LuaResources.floatValues
+  fullName: LuaMod.LuaResources.floatValues
+  nameWithType: LuaResources.floatValues
+- uid: LuaMod.LuaResources.objectKeys
+  name: objectKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_objectKeys
+  commentId: F:LuaMod.LuaResources.objectKeys
+  fullName: LuaMod.LuaResources.objectKeys
+  nameWithType: LuaResources.objectKeys
+- uid: LuaMod.LuaResources.objectValues
+  name: objectValues
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_objectValues
+  commentId: F:LuaMod.LuaResources.objectValues
+  fullName: LuaMod.LuaResources.objectValues
+  nameWithType: LuaResources.objectValues
+- uid: LuaMod.LuaResources.stringKeys
+  name: stringKeys
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_stringKeys
+  commentId: F:LuaMod.LuaResources.stringKeys
+  fullName: LuaMod.LuaResources.stringKeys
+  nameWithType: LuaResources.stringKeys
+- uid: LuaMod.LuaResources.stringValues
+  name: stringValues
+  href: api/LuaMod.LuaResources.html#LuaMod_LuaResources_stringValues
+  commentId: F:LuaMod.LuaResources.stringValues
+  fullName: LuaMod.LuaResources.stringValues
+  nameWithType: LuaResources.stringValues
+- uid: LuaMod.LuaSafeCall
+  name: LuaSafeCall
+  href: api/LuaMod.LuaSafeCall.html
+  commentId: T:LuaMod.LuaSafeCall
+  fullName: LuaMod.LuaSafeCall
+  nameWithType: LuaSafeCall
+- uid: LuaMod.LuaSafeCall.Run(System.Action,System.String)
+  name: Run(Action, string)
+  href: api/LuaMod.LuaSafeCall.html#LuaMod_LuaSafeCall_Run_System_Action_System_String_
+  commentId: M:LuaMod.LuaSafeCall.Run(System.Action,System.String)
+  name.vb: Run(Action, String)
+  fullName: LuaMod.LuaSafeCall.Run(System.Action, string)
+  fullName.vb: LuaMod.LuaSafeCall.Run(System.Action, String)
+  nameWithType: LuaSafeCall.Run(Action, string)
+  nameWithType.vb: LuaSafeCall.Run(Action, String)
+- uid: LuaMod.LuaSafeCall.Run*
+  name: Run
+  href: api/LuaMod.LuaSafeCall.html#LuaMod_LuaSafeCall_Run_
+  commentId: Overload:LuaMod.LuaSafeCall.Run
+  isSpec: "True"
+  fullName: LuaMod.LuaSafeCall.Run
+  nameWithType: LuaSafeCall.Run
+- uid: LuaMod.LuaSafeCall.Run``1(System.Func{``0},System.String)
+  name: Run<T>(Func<T>, string)
+  href: api/LuaMod.LuaSafeCall.html#LuaMod_LuaSafeCall_Run__1_System_Func___0__System_String_
+  commentId: M:LuaMod.LuaSafeCall.Run``1(System.Func{``0},System.String)
+  name.vb: Run(Of T)(Func(Of T), String)
+  fullName: LuaMod.LuaSafeCall.Run<T>(System.Func<T>, string)
+  fullName.vb: LuaMod.LuaSafeCall.Run(Of T)(System.Func(Of T), String)
+  nameWithType: LuaSafeCall.Run<T>(Func<T>, string)
+  nameWithType.vb: LuaSafeCall.Run(Of T)(Func(Of T), String)
+- uid: LuaMod.ScriptManager
+  name: ScriptManager
+  href: api/LuaMod.ScriptManager.html
+  commentId: T:LuaMod.ScriptManager
+  fullName: LuaMod.ScriptManager
+  nameWithType: ScriptManager
+- uid: LuaMod.ScriptManager.DeregisterScript(LuaMod.LuaModScript)
+  name: DeregisterScript(LuaModScript)
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_DeregisterScript_LuaMod_LuaModScript_
+  commentId: M:LuaMod.ScriptManager.DeregisterScript(LuaMod.LuaModScript)
+  fullName: LuaMod.ScriptManager.DeregisterScript(LuaMod.LuaModScript)
+  nameWithType: ScriptManager.DeregisterScript(LuaModScript)
+- uid: LuaMod.ScriptManager.DeregisterScript*
+  name: DeregisterScript
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_DeregisterScript_
+  commentId: Overload:LuaMod.ScriptManager.DeregisterScript
+  isSpec: "True"
+  fullName: LuaMod.ScriptManager.DeregisterScript
+  nameWithType: ScriptManager.DeregisterScript
+- uid: LuaMod.ScriptManager.InitiateFileSystemMonitor
+  name: InitiateFileSystemMonitor()
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_InitiateFileSystemMonitor
+  commentId: M:LuaMod.ScriptManager.InitiateFileSystemMonitor
+  fullName: LuaMod.ScriptManager.InitiateFileSystemMonitor()
+  nameWithType: ScriptManager.InitiateFileSystemMonitor()
+- uid: LuaMod.ScriptManager.InitiateFileSystemMonitor*
+  name: InitiateFileSystemMonitor
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_InitiateFileSystemMonitor_
+  commentId: Overload:LuaMod.ScriptManager.InitiateFileSystemMonitor
+  isSpec: "True"
+  fullName: LuaMod.ScriptManager.InitiateFileSystemMonitor
+  nameWithType: ScriptManager.InitiateFileSystemMonitor
+- uid: LuaMod.ScriptManager.RegisterScript(LuaMod.LuaModScript)
+  name: RegisterScript(LuaModScript)
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_RegisterScript_LuaMod_LuaModScript_
+  commentId: M:LuaMod.ScriptManager.RegisterScript(LuaMod.LuaModScript)
+  fullName: LuaMod.ScriptManager.RegisterScript(LuaMod.LuaModScript)
+  nameWithType: ScriptManager.RegisterScript(LuaModScript)
+- uid: LuaMod.ScriptManager.RegisterScript*
+  name: RegisterScript
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_RegisterScript_
+  commentId: Overload:LuaMod.ScriptManager.RegisterScript
+  isSpec: "True"
+  fullName: LuaMod.ScriptManager.RegisterScript
+  nameWithType: ScriptManager.RegisterScript
+- uid: LuaMod.ScriptManager.ReloadScripts
+  name: ReloadScripts()
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_ReloadScripts
+  commentId: M:LuaMod.ScriptManager.ReloadScripts
+  fullName: LuaMod.ScriptManager.ReloadScripts()
+  nameWithType: ScriptManager.ReloadScripts()
+- uid: LuaMod.ScriptManager.ReloadScripts*
+  name: ReloadScripts
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_ReloadScripts_
+  commentId: Overload:LuaMod.ScriptManager.ReloadScripts
+  isSpec: "True"
+  fullName: LuaMod.ScriptManager.ReloadScripts
+  nameWithType: ScriptManager.ReloadScripts
+- uid: LuaMod.ScriptManager.ScriptList
+  name: ScriptList
+  href: api/LuaMod.ScriptManager.html#LuaMod_ScriptManager_ScriptList
+  commentId: F:LuaMod.ScriptManager.ScriptList
+  fullName: LuaMod.ScriptManager.ScriptList
+  nameWithType: ScriptManager.ScriptList

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LuaGun | Lua Modding Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LuaGun | Lua Modding Framework ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Lua Modding Framework">
+            Lua Modding Framework
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LuaMod.LuaGun">
+
+
+
+  <h1 id="LuaMod_LuaGun" data-uid="LuaMod.LuaGun" class="text-break">
+Class LuaGun  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LuaMod.html">LuaMod</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LuaMod.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LuaGun : LuaBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">Il2CppObjectBase</span></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="LuaMod.LuaBehaviour.html">LuaBehaviour</a></div>
+      <div><span class="xref">LuaGun</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptName">LuaBehaviour.ScriptName</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptAsset">LuaBehaviour.ScriptAsset</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SlowUpdateTime">LuaBehaviour.SlowUpdateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_ScriptTags">LuaBehaviour.ScriptTags</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_Ready">LuaBehaviour.Ready</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_BehaviourScript">LuaBehaviour.BehaviourScript</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_StartFunction">LuaBehaviour.StartFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_LateStartFunction">LuaBehaviour.LateStartFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_UpdateFunction">LuaBehaviour.UpdateFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_FixedUpdateFunction">LuaBehaviour.FixedUpdateFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_AwakeFunction">LuaBehaviour.AwakeFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnEnableFunction">LuaBehaviour.OnEnableFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnDisableFunction">LuaBehaviour.OnDisableFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnDestroyFunction">LuaBehaviour.OnDestroyFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionEnterFunction">LuaBehaviour.OnCollisionEnterFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionExitFunction">LuaBehaviour.OnCollisionExitFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnCollisionStayFunction">LuaBehaviour.OnCollisionStayFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SlowUpdateFunction">LuaBehaviour.SlowUpdateFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_LateUpdateFunction">LuaBehaviour.LateUpdateFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerEnterFunction">LuaBehaviour.OnTriggerEnterFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerExitFunction">LuaBehaviour.OnTriggerExitFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTriggerStayFunction">LuaBehaviour.OnTriggerStayFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnBecameInvisibleFunction">LuaBehaviour.OnBecameInvisibleFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnBecameVisibleFunction">LuaBehaviour.OnBecameVisibleFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleSystemStoppedFunction">LuaBehaviour.OnParticleSystemStoppedFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleCollisionFunction">LuaBehaviour.OnParticleCollisionFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleTriggerFunction">LuaBehaviour.OnParticleTriggerFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnParticleUpdateJobScheduledFunction">LuaBehaviour.OnParticleUpdateJobScheduledFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTransformChildrenChangedFunction">LuaBehaviour.OnTransformChildrenChangedFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnTransformParentChangedFunction">LuaBehaviour.OnTransformParentChangedFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_OnJointBreakFunction">LuaBehaviour.OnJointBreakFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_SetScriptVariable_System_String_MoonSharp_Interpreter_DynValue_">LuaBehaviour.SetScriptVariable(string, DynValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_GetScriptVariable_System_String_">LuaBehaviour.GetScriptVariable(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunctionULEvent_System_String_System_Int32_System_Single_System_String_UnityEngine_Object_">LuaBehaviour.CallFunctionULEvent(string, int, float, string, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="LuaMod.LuaBehaviour.html#LuaMod_LuaBehaviour_CallFunction_System_String_MoonSharp_Interpreter_DynValue___">LuaBehaviour.CallFunction(string, params DynValue[])</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LuaMod_LuaGun__ctor_" data-uid="LuaMod.LuaGun.#ctor*"></a>
+
+  <h3 id="LuaMod_LuaGun__ctor_System_IntPtr_" data-uid="LuaMod.LuaGun.#ctor(System.IntPtr)">
+  LuaGun(IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LuaGun(IntPtr ptr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ptr</code> <span class="xref">IntPtr</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LuaMod_LuaGun_AttachedGun" data-uid="LuaMod.LuaGun.AttachedGun">
+  AttachedGun
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gun AttachedGun</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Gun</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LuaMod_LuaGun_AttachedGunSlide" data-uid="LuaMod.LuaGun.AttachedGunSlide">
+  AttachedGunSlide
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlideVirtualController AttachedGunSlide</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SlideVirtualController</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LuaMod_LuaGun_SupressBullet" data-uid="LuaMod.LuaGun.SupressBullet">
+  SupressBullet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupressBullet</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LuaMod_LuaGun_ForceGunFire_" data-uid="LuaMod.LuaGun.ForceGunFire*"></a>
+
+  <h3 id="LuaMod_LuaGun_ForceGunFire" data-uid="LuaMod.LuaGun.ForceGunFire">
+  ForceGunFire()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForceGunFire()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_GetFirepointPosition_" data-uid="LuaMod.LuaGun.GetFirepointPosition*"></a>
+
+  <h3 id="LuaMod_LuaGun_GetFirepointPosition" data-uid="LuaMod.LuaGun.GetFirepointPosition">
+  GetFirepointPosition()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynValue GetFirepointPosition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DynValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_GetMagazineRounds_" data-uid="LuaMod.LuaGun.GetMagazineRounds*"></a>
+
+  <h3 id="LuaMod_LuaGun_GetMagazineRounds" data-uid="LuaMod.LuaGun.GetMagazineRounds">
+  GetMagazineRounds()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynValue GetMagazineRounds()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DynValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_LuaSpawnCartridge_" data-uid="LuaMod.LuaGun.LuaSpawnCartridge*"></a>
+
+  <h3 id="LuaMod_LuaGun_LuaSpawnCartridge_Il2CppSLZ_Marrow_Data_Spawnable_" data-uid="LuaMod.LuaGun.LuaSpawnCartridge(Il2CppSLZ.Marrow.Data.Spawnable)">
+  LuaSpawnCartridge(Spawnable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LuaSpawnCartridge(Spawnable spawnableCartridge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>spawnableCartridge</code> <span class="xref">Spawnable</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_LuaTriggerPulled_" data-uid="LuaMod.LuaGun.LuaTriggerPulled*"></a>
+
+  <h3 id="LuaMod_LuaGun_LuaTriggerPulled" data-uid="LuaMod.LuaGun.LuaTriggerPulled">
+  LuaTriggerPulled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LuaTriggerPulled()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnFire_" data-uid="LuaMod.LuaGun.OnFire*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnFire" data-uid="LuaMod.LuaGun.OnFire">
+  OnFire()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OnFire()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnGripAttached_" data-uid="LuaMod.LuaGun.OnGripAttached*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnGripAttached_Il2CppSLZ_Marrow_InteractableHost_Il2CppSLZ_Marrow_Hand_" data-uid="LuaMod.LuaGun.OnGripAttached(Il2CppSLZ.Marrow.InteractableHost,Il2CppSLZ.Marrow.Hand)">
+  OnGripAttached(InteractableHost, Hand)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGripAttached(InteractableHost host, Hand hand)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>host</code> <span class="xref">InteractableHost</span></dt>
+    <dd></dd>
+    <dt><code>hand</code> <span class="xref">Hand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnMagizineEjected_" data-uid="LuaMod.LuaGun.OnMagizineEjected*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnMagizineEjected" data-uid="LuaMod.LuaGun.OnMagizineEjected">
+  OnMagizineEjected()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnMagizineEjected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnSlideGrabbed_" data-uid="LuaMod.LuaGun.OnSlideGrabbed*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnSlideGrabbed" data-uid="LuaMod.LuaGun.OnSlideGrabbed">
+  OnSlideGrabbed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSlideGrabbed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnSlideReleased_" data-uid="LuaMod.LuaGun.OnSlideReleased*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnSlideReleased" data-uid="LuaMod.LuaGun.OnSlideReleased">
+  OnSlideReleased()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSlideReleased()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_OnSlideUpdate_" data-uid="LuaMod.LuaGun.OnSlideUpdate*"></a>
+
+  <h3 id="LuaMod_LuaGun_OnSlideUpdate_System_Single_" data-uid="LuaMod.LuaGun.OnSlideUpdate(System.Single)">
+  OnSlideUpdate(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSlideUpdate(float pos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pos</code> <span class="xref">float</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_SetMagazineRounds_" data-uid="LuaMod.LuaGun.SetMagazineRounds*"></a>
+
+  <h3 id="LuaMod_LuaGun_SetMagazineRounds_System_Int32_" data-uid="LuaMod.LuaGun.SetMagazineRounds(System.Int32)">
+  SetMagazineRounds(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetMagazineRounds(int rounds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rounds</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_SetupBehaviourFunctions_" data-uid="LuaMod.LuaGun.SetupBehaviourFunctions*"></a>
+
+  <h3 id="LuaMod_LuaGun_SetupBehaviourFunctions" data-uid="LuaMod.LuaGun.SetupBehaviourFunctions">
+  SetupBehaviourFunctions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SetupBehaviourFunctions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaGun_Start_" data-uid="LuaMod.LuaGun.Start*"></a>
+
+  <h3 id="LuaMod_LuaGun_Start" data-uid="LuaMod.LuaGun.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

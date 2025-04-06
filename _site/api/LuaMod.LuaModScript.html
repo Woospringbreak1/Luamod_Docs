@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LuaModScript | Lua Modding Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LuaModScript | Lua Modding Framework ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Woospringbreak1/BL_LuaMod/new/main/apiSpec/new?filename=LuaMod_LuaModScript.md&amp;value=---%0Auid%3A%20LuaMod.LuaModScript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Lua Modding Framework">
+            Lua Modding Framework
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LuaMod.LuaModScript">
+
+
+
+  <h1 id="LuaMod_LuaModScript" data-uid="LuaMod.LuaModScript" class="text-break">
+Class LuaModScript  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LuaMod.html">LuaMod</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LuaMod.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LuaModScript</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">LuaModScript</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LuaMod_LuaModScript_MaxScriptExecutionTime" data-uid="LuaMod.LuaModScript.MaxScriptExecutionTime">
+  MaxScriptExecutionTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const int MaxScriptExecutionTime = 100</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LuaMod_LuaModScript_PostReloadScript" data-uid="LuaMod.LuaModScript.PostReloadScript">
+  PostReloadScript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LuaModScript.del_postreload PostReloadScript</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LuaMod.LuaModScript.html">LuaModScript</a>.<a class="xref" href="LuaMod.LuaModScript.del_postreload.html">del_postreload</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LuaMod_LuaModScript_CallScriptFunction_" data-uid="LuaMod.LuaModScript.CallScriptFunction*"></a>
+
+  <h3 id="LuaMod_LuaModScript_CallScriptFunction_MoonSharp_Interpreter_DynValue_System_Object___" data-uid="LuaMod.LuaModScript.CallScriptFunction(MoonSharp.Interpreter.DynValue,System.Object[])">
+  CallScriptFunction(DynValue, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynValue CallScriptFunction(DynValue luaFunc, params object[] Args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>luaFunc</code> <span class="xref">DynValue</span></dt>
+    <dd></dd>
+    <dt><code>Args</code> <span class="xref">object</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DynValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_DestroyScript_" data-uid="LuaMod.LuaModScript.DestroyScript*"></a>
+
+  <h3 id="LuaMod_LuaModScript_DestroyScript" data-uid="LuaMod.LuaModScript.DestroyScript">
+  DestroyScript()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroyScript()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_GetGlobal_" data-uid="LuaMod.LuaModScript.GetGlobal*"></a>
+
+  <h3 id="LuaMod_LuaModScript_GetGlobal_System_String_" data-uid="LuaMod.LuaModScript.GetGlobal(System.String)">
+  GetGlobal(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynValue GetGlobal(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DynValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_IsScriptPathSafe_" data-uid="LuaMod.LuaModScript.IsScriptPathSafe*"></a>
+
+  <h3 id="LuaMod_LuaModScript_IsScriptPathSafe_System_String_" data-uid="LuaMod.LuaModScript.IsScriptPathSafe(System.String)">
+  IsScriptPathSafe(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsScriptPathSafe(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_LoadScript_" data-uid="LuaMod.LuaModScript.LoadScript*"></a>
+
+  <h3 id="LuaMod_LuaModScript_LoadScript_System_String_System_Boolean_" data-uid="LuaMod.LuaModScript.LoadScript(System.String,System.Boolean)">
+  LoadScript(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoadScript(string filename, bool reloading)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filename</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>reloading</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_LoadScript_" data-uid="LuaMod.LuaModScript.LoadScript*"></a>
+
+  <h3 id="LuaMod_LuaModScript_LoadScript_UnityEngine_TextAsset_System_Boolean_" data-uid="LuaMod.LuaModScript.LoadScript(UnityEngine.TextAsset,System.Boolean)">
+  LoadScript(TextAsset, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoadScript(TextAsset scriptasset, bool reloading)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scriptasset</code> <span class="xref">TextAsset</span></dt>
+    <dd></dd>
+    <dt><code>reloading</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_ReloadScript_" data-uid="LuaMod.LuaModScript.ReloadScript*"></a>
+
+  <h3 id="LuaMod_LuaModScript_ReloadScript" data-uid="LuaMod.LuaModScript.ReloadScript">
+  ReloadScript()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReloadScript()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_ScriptIsValid_" data-uid="LuaMod.LuaModScript.ScriptIsValid*"></a>
+
+  <h3 id="LuaMod_LuaModScript_ScriptIsValid" data-uid="LuaMod.LuaModScript.ScriptIsValid">
+  ScriptIsValid()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ScriptIsValid()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaModScript_SetGlobal_" data-uid="LuaMod.LuaModScript.SetGlobal*"></a>
+
+  <h3 id="LuaMod_LuaModScript_SetGlobal_System_String_System_Object_" data-uid="LuaMod.LuaModScript.SetGlobal(System.String,System.Object)">
+  SetGlobal(string, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGlobal(string name, object val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>val</code> <span class="xref">object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaModScript.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
