@@ -161,6 +161,41 @@ Class API_Utils  <a class="header-action link-secondary" title="View source" hre
 </h2>
 
 
+  <a id="LuaMod_LuaAPI_API_Utils_BL_AppendToArray_" data-uid="LuaMod.LuaAPI.API_Utils.BL_AppendToArray*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Utils_BL_AppendToArray_System_Object_System_String_System_Object_" data-uid="LuaMod.LuaAPI.API_Utils.BL_AppendToArray(System.Object,System.String,System.Object)">
+  BL_AppendToArray(object, string, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BL_AppendToArray(object target, string fieldName, object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">object</span></dt>
+    <dd></dd>
+    <dt><code>fieldName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="LuaMod_LuaAPI_API_Utils_BL_CollectionLength_" data-uid="LuaMod.LuaAPI.API_Utils.BL_CollectionLength*"></a>
 
   <h3 id="LuaMod_LuaAPI_API_Utils_BL_CollectionLength_System_Collections_ICollection_" data-uid="LuaMod.LuaAPI.API_Utils.BL_CollectionLength(System.Collections.ICollection)">
@@ -201,14 +236,14 @@ Class API_Utils  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="LuaMod_LuaAPI_API_Utils_BL_ConvertObjectToType_UnityEngine_Object_System_String_" data-uid="LuaMod.LuaAPI.API_Utils.BL_ConvertObjectToType(UnityEngine.Object,System.String)">
   BL_ConvertObjectToType(Object, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DynValue BL_ConvertObjectToType(Object obj, string CompType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DynValue BL_ConvertObjectToType(Object obj, string CompType)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -216,6 +251,46 @@ Class API_Utils  <a class="header-action link-secondary" title="View source" hre
     <dt><code>obj</code> <span class="xref">Object</span></dt>
     <dd></dd>
     <dt><code>CompType</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DynValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Utils_BL_GetArrayElement_" data-uid="LuaMod.LuaAPI.API_Utils.BL_GetArrayElement*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Utils_BL_GetArrayElement_System_Object_System_String_System_Int32_" data-uid="LuaMod.LuaAPI.API_Utils.BL_GetArrayElement(System.Object,System.String,System.Int32)">
+  BL_GetArrayElement(object, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DynValue BL_GetArrayElement(object target, string fieldName, int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">object</span></dt>
+    <dd></dd>
+    <dt><code>fieldName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -246,7 +321,7 @@ Class API_Utils  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string BL_GetBarcode(GameObject gameObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string BL_GetBarcode(GameObject gameObject)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -282,9 +357,82 @@ Class API_Utils  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string BL_GetSceneName()</code></pre>
+    <pre><code class="lang-csharp hljs">public static string BL_GetSceneName()</code></pre>
   </div>
 
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Utils_BL_SetArrayElement_" data-uid="LuaMod.LuaAPI.API_Utils.BL_SetArrayElement*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Utils_BL_SetArrayElement_System_Object_System_String_System_Int32_System_Object_" data-uid="LuaMod.LuaAPI.API_Utils.BL_SetArrayElement(System.Object,System.String,System.Int32,System.Object)">
+  BL_SetArrayElement(object, string, int, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BL_SetArrayElement(object target, string fieldName, int index, object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">object</span></dt>
+    <dd></dd>
+    <dt><code>fieldName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Utils_RemoveDoubleSlashes_" data-uid="LuaMod.LuaAPI.API_Utils.RemoveDoubleSlashes*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Utils_RemoveDoubleSlashes_System_String_" data-uid="LuaMod.LuaAPI.API_Utils.RemoveDoubleSlashes(System.String)">
+  RemoveDoubleSlashes(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Utils.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RemoveDoubleSlashes(string input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">

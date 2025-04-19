@@ -89,7 +89,7 @@
 
 
   <h1 id="LuaMod_LuaAPI_API_Random" data-uid="LuaMod.LuaAPI.API_Random" class="text-break">
-Class API_Random  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class API_Random  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -130,7 +130,7 @@ Class API_Random  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="LuaMod_LuaAPI_API_Random_Instance" data-uid="LuaMod.LuaAPI.API_Random.Instance">
   Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -157,22 +157,243 @@ Class API_Random  <a class="header-action link-secondary" title="View source" hr
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="LuaMod_LuaAPI_API_Random_BL_RandomRange_" data-uid="LuaMod.LuaAPI.API_Random.BL_RandomRange*"></a>
+  <a id="LuaMod_LuaAPI_API_Random_Seed_" data-uid="LuaMod.LuaAPI.API_Random.Seed*"></a>
 
-  <h3 id="LuaMod_LuaAPI_API_Random_BL_RandomRange_System_Single_System_Single_" data-uid="LuaMod.LuaAPI.API_Random.BL_RandomRange(System.Single,System.Single)">
-  BL_RandomRange(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="LuaMod_LuaAPI_API_Random_Seed" data-uid="LuaMod.LuaAPI.API_Random.Seed">
+  Seed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float BL_RandomRange(float min, float max)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Seed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LuaMod_LuaAPI_API_Random_Bool_" data-uid="LuaMod.LuaAPI.API_Random.Bool*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_Bool" data-uid="LuaMod.LuaAPI.API_Random.Bool">
+  Bool()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Bool()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_GetState_" data-uid="LuaMod.LuaAPI.API_Random.GetState*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_GetState" data-uid="LuaMod.LuaAPI.API_Random.GetState">
+  GetState()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Random.State GetState()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Random</span>.<span class="xref">State</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_InitState_" data-uid="LuaMod.LuaAPI.API_Random.InitState*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_InitState_System_Int32_" data-uid="LuaMod.LuaAPI.API_Random.InitState(System.Int32)">
+  InitState(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitState(int seed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seed</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_InsideUnitCircle_" data-uid="LuaMod.LuaAPI.API_Random.InsideUnitCircle*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_InsideUnitCircle" data-uid="LuaMod.LuaAPI.API_Random.InsideUnitCircle">
+  InsideUnitCircle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 InsideUnitCircle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_InsideUnitSphere_" data-uid="LuaMod.LuaAPI.API_Random.InsideUnitSphere*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_InsideUnitSphere" data-uid="LuaMod.LuaAPI.API_Random.InsideUnitSphere">
+  InsideUnitSphere()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InsideUnitSphere()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_OnUnitSphere_" data-uid="LuaMod.LuaAPI.API_Random.OnUnitSphere*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_OnUnitSphere" data-uid="LuaMod.LuaAPI.API_Random.OnUnitSphere">
+  OnUnitSphere()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 OnUnitSphere()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_RangeFloat_" data-uid="LuaMod.LuaAPI.API_Random.RangeFloat*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_RangeFloat_System_Single_System_Single_" data-uid="LuaMod.LuaAPI.API_Random.RangeFloat(System.Single,System.Single)">
+  RangeFloat(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RangeFloat(float min, float max)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -199,24 +420,155 @@ Class API_Random  <a class="header-action link-secondary" title="View source" hr
 
 
 
-  <a id="LuaMod_LuaAPI_API_Random_BL_onUnitSphere_" data-uid="LuaMod.LuaAPI.API_Random.BL_onUnitSphere*"></a>
+  <a id="LuaMod_LuaAPI_API_Random_RangeInt_" data-uid="LuaMod.LuaAPI.API_Random.RangeInt*"></a>
 
-  <h3 id="LuaMod_LuaAPI_API_Random_BL_onUnitSphere" data-uid="LuaMod.LuaAPI.API_Random.BL_onUnitSphere">
-  BL_onUnitSphere()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="LuaMod_LuaAPI_API_Random_RangeInt_System_Int32_System_Int32_" data-uid="LuaMod.LuaAPI.API_Random.RangeInt(System.Int32,System.Int32)">
+  RangeInt(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 BL_onUnitSphere()</code></pre>
+    <pre><code class="lang-csharp hljs">public int RangeInt(int min, int max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>min</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>max</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_Rotation_" data-uid="LuaMod.LuaAPI.API_Random.Rotation*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_Rotation" data-uid="LuaMod.LuaAPI.API_Random.Rotation">
+  Rotation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion Rotation()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">Vector3</span></dt>
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_RotationUniform_" data-uid="LuaMod.LuaAPI.API_Random.RotationUniform*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_RotationUniform" data-uid="LuaMod.LuaAPI.API_Random.RotationUniform">
+  RotationUniform()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion RotationUniform()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_SetState_" data-uid="LuaMod.LuaAPI.API_Random.SetState*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_SetState_UnityEngine_Random_State_" data-uid="LuaMod.LuaAPI.API_Random.SetState(UnityEngine.Random.State)">
+  SetState(State)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetState(Random.State state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>state</code> <span class="xref">Random</span>.<span class="xref">State</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LuaMod_LuaAPI_API_Random_Value_" data-uid="LuaMod.LuaAPI.API_Random.Value*"></a>
+
+  <h3 id="LuaMod_LuaAPI_API_Random_Value" data-uid="LuaMod.LuaAPI.API_Random.Value">
+  Value()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Value()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">float</span></dt>
     <dd></dd>
   </dl>
 
@@ -234,7 +586,7 @@ Class API_Random  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Woospringbreak1/BL_LuaMod/blob/main/LuaMod/LuaAPI/API_Random.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

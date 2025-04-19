@@ -213,6 +213,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LuaMod.LuaAPI.API_Renderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LuaMod.LuaAPI.API_Renderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LuaMod.LuaAPI.API_Renderer",
+      "Summary": "<p sourcefile=\"api/LuaMod.LuaAPI.API_Renderer.yml\" sourcestartlinenumber=\"1\">Lua-exposed API for modifying MeshRenderer materials.\nSupports getting, setting, and replacing materials from Lua scripts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LuaMod.LuaAPI.API_SLZ_Combat.yml",
       "output": {
         ".html": {
@@ -353,6 +367,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LuaMod.LuaMemoryProfiler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LuaMod.LuaMemoryProfiler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LuaMod.LuaMemoryProfiler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LuaMod.LuaMod.yml",
       "output": {
         ".html": {
@@ -363,6 +391,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "LuaMod.LuaMod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LuaMod.LuaModScript.ScriptStrikeRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LuaMod.LuaModScript.ScriptStrikeRecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LuaMod.LuaModScript.ScriptStrikeRecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LuaMod.LuaModScript.StrikeReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LuaMod.LuaModScript.StrikeReason.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LuaMod.LuaModScript.StrikeReason",
       "Summary": null
     },
     {
